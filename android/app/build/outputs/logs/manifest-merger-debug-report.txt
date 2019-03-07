@@ -1,0 +1,153 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /home/sudhir/Documents/Sudhir/UI/FoodHaveli/android/app/src/main/AndroidManifest.xml:1:1-26:12
+INJECTED from /home/sudhir/Documents/Sudhir/UI/FoodHaveli/android/app/src/main/AndroidManifest.xml:1:1-26:12
+INJECTED from /home/sudhir/Documents/Sudhir/UI/FoodHaveli/android/app/src/main/AndroidManifest.xml:1:1-26:12
+INJECTED from /home/sudhir/Documents/Sudhir/UI/FoodHaveli/android/app/src/main/AndroidManifest.xml:1:1-26:12
+MERGED from [com.facebook.react:react-native:0.57.4] /home/sudhir/.gradle/caches/transforms-1/files-1.1/react-native-0.57.4.aar/d792d35a42be139e1a5aa7fd7a4d7169/AndroidManifest.xml:2:1-15:12
+MERGED from [com.android.support:appcompat-v7:27.1.1] /home/sudhir/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/c51f8db8a3237c8c48121d0971b2ae56/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-fragment:27.1.1] /home/sudhir/.gradle/caches/transforms-1/files-1.1/support-fragment-27.1.1.aar/f3a2fe40b301fd55aae1d5d58ab71ab7/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:animated-vector-drawable:27.1.1] /home/sudhir/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-27.1.1.aar/eef69d7efdc518028137069bf66c22b0/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-ui:27.1.1] /home/sudhir/.gradle/caches/transforms-1/files-1.1/support-core-ui-27.1.1.aar/81f43b2cd86c50dc83b340c5d62aa9e7/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-utils:27.1.1] /home/sudhir/.gradle/caches/transforms-1/files-1.1/support-core-utils-27.1.1.aar/922f463aa406f7d43b613314600d7512/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-vector-drawable:27.1.1] /home/sudhir/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-27.1.1.aar/1883b709ad1c67f729c6f15ebf90bb8d/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-compat:27.1.1] /home/sudhir/.gradle/caches/transforms-1/files-1.1/support-compat-27.1.1.aar/6e1b3a4a1ae0041b04c6710ef0c43bf5/AndroidManifest.xml:17:1-22:12
+MERGED from [com.facebook.fresco:fresco:1.10.0] /home/sudhir/.gradle/caches/transforms-1/files-1.1/fresco-1.10.0.aar/8a68dabf750472daa8b1e334945c740e/AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:imagepipeline-okhttp3:1.10.0] /home/sudhir/.gradle/caches/transforms-1/files-1.1/imagepipeline-okhttp3-1.10.0.aar/1050761603f7a9edf948b82ae6784701/AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:drawee:1.10.0] /home/sudhir/.gradle/caches/transforms-1/files-1.1/drawee-1.10.0.aar/86f7963f96b1512d202c334db05d8d43/AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:imagepipeline:1.10.0] /home/sudhir/.gradle/caches/transforms-1/files-1.1/imagepipeline-1.10.0.aar/fa34b2f54bd051d615963e3dafb333b4/AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:imagepipeline-base:1.10.0] /home/sudhir/.gradle/caches/transforms-1/files-1.1/imagepipeline-base-1.10.0.aar/fa412151aa71f38779560f150ed17ec5/AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.soloader:soloader:0.5.1] /home/sudhir/.gradle/caches/transforms-1/files-1.1/soloader-0.5.1.aar/302e61d21ee13c325953288456d08cb2/AndroidManifest.xml:2:1-13:12
+MERGED from [org.webkit:android-jsc:r174650] /home/sudhir/.gradle/caches/transforms-1/files-1.1/android-jsc-r174650.aar/768ffe561163f905d691de07fdcd9684/AndroidManifest.xml:1:1-3:12
+MERGED from [android.arch.lifecycle:livedata-core:1.1.0] /home/sudhir/.gradle/caches/transforms-1/files-1.1/livedata-core-1.1.0.aar/57572345e1b7e75c0a5fdd164e86e8ed/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:viewmodel:1.1.0] /home/sudhir/.gradle/caches/transforms-1/files-1.1/viewmodel-1.1.0.aar/0a2100735ffff788c43bc996af0e4545/AndroidManifest.xml:17:1-22:12
+MERGED from [com.facebook.fresco:fbcore:1.10.0] /home/sudhir/.gradle/caches/transforms-1/files-1.1/fbcore-1.10.0.aar/85a68e964a41a20e8ec3ca88bf9dad95/AndroidManifest.xml:2:1-9:12
+MERGED from [android.arch.lifecycle:runtime:1.1.0] /home/sudhir/.gradle/caches/transforms-1/files-1.1/runtime-1.1.0.aar/f739982104944d52de07d79f49b69c38/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.core:runtime:1.1.0] /home/sudhir/.gradle/caches/transforms-1/files-1.1/runtime-1.1.0.aar/7880f0ac1ca2bccdc783103076db78e9/AndroidManifest.xml:17:1-22:12
+INJECTED from /home/sudhir/Documents/Sudhir/UI/FoodHaveli/android/app/src/main/AndroidManifest.xml:1:1-26:12
+INJECTED from /home/sudhir/Documents/Sudhir/UI/FoodHaveli/android/app/src/main/AndroidManifest.xml:1:1-26:12
+INJECTED from /home/sudhir/Documents/Sudhir/UI/FoodHaveli/android/app/src/main/AndroidManifest.xml:1:1-26:12
+	package
+		ADDED from /home/sudhir/Documents/Sudhir/UI/FoodHaveli/android/app/src/main/AndroidManifest.xml:2:5-29
+		INJECTED from /home/sudhir/Documents/Sudhir/UI/FoodHaveli/android/app/src/main/AndroidManifest.xml
+		INJECTED from /home/sudhir/Documents/Sudhir/UI/FoodHaveli/android/app/src/main/AndroidManifest.xml
+	android:versionName
+		INJECTED from /home/sudhir/Documents/Sudhir/UI/FoodHaveli/android/app/src/main/AndroidManifest.xml
+		ADDED from /home/sudhir/Documents/Sudhir/UI/FoodHaveli/android/app/src/main/AndroidManifest.xml:1:1-26:12
+		INJECTED from /home/sudhir/Documents/Sudhir/UI/FoodHaveli/android/app/src/main/AndroidManifest.xml
+	android:versionCode
+		INJECTED from /home/sudhir/Documents/Sudhir/UI/FoodHaveli/android/app/src/main/AndroidManifest.xml
+		ADDED from /home/sudhir/Documents/Sudhir/UI/FoodHaveli/android/app/src/main/AndroidManifest.xml:1:1-26:12
+		INJECTED from /home/sudhir/Documents/Sudhir/UI/FoodHaveli/android/app/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /home/sudhir/Documents/Sudhir/UI/FoodHaveli/android/app/src/main/AndroidManifest.xml:1:11-69
+uses-permission#android.permission.INTERNET
+ADDED from /home/sudhir/Documents/Sudhir/UI/FoodHaveli/android/app/src/main/AndroidManifest.xml:4:5-67
+	android:name
+		ADDED from /home/sudhir/Documents/Sudhir/UI/FoodHaveli/android/app/src/main/AndroidManifest.xml:4:22-64
+uses-permission#android.permission.SYSTEM_ALERT_WINDOW
+ADDED from /home/sudhir/Documents/Sudhir/UI/FoodHaveli/android/app/src/main/AndroidManifest.xml:5:5-77
+MERGED from [com.facebook.react:react-native:0.57.4] /home/sudhir/.gradle/caches/transforms-1/files-1.1/react-native-0.57.4.aar/d792d35a42be139e1a5aa7fd7a4d7169/AndroidManifest.xml:11:5-78
+MERGED from [com.facebook.react:react-native:0.57.4] /home/sudhir/.gradle/caches/transforms-1/files-1.1/react-native-0.57.4.aar/d792d35a42be139e1a5aa7fd7a4d7169/AndroidManifest.xml:11:5-78
+	android:name
+		ADDED from /home/sudhir/Documents/Sudhir/UI/FoodHaveli/android/app/src/main/AndroidManifest.xml:5:22-75
+application
+ADDED from /home/sudhir/Documents/Sudhir/UI/FoodHaveli/android/app/src/main/AndroidManifest.xml:7:5-24:19
+MERGED from [com.facebook.react:react-native:0.57.4] /home/sudhir/.gradle/caches/transforms-1/files-1.1/react-native-0.57.4.aar/d792d35a42be139e1a5aa7fd7a4d7169/AndroidManifest.xml:13:5-20
+MERGED from [com.facebook.react:react-native:0.57.4] /home/sudhir/.gradle/caches/transforms-1/files-1.1/react-native-0.57.4.aar/d792d35a42be139e1a5aa7fd7a4d7169/AndroidManifest.xml:13:5-20
+MERGED from [com.facebook.soloader:soloader:0.5.1] /home/sudhir/.gradle/caches/transforms-1/files-1.1/soloader-0.5.1.aar/302e61d21ee13c325953288456d08cb2/AndroidManifest.xml:11:5-20
+MERGED from [com.facebook.soloader:soloader:0.5.1] /home/sudhir/.gradle/caches/transforms-1/files-1.1/soloader-0.5.1.aar/302e61d21ee13c325953288456d08cb2/AndroidManifest.xml:11:5-20
+MERGED from [org.webkit:android-jsc:r174650] /home/sudhir/.gradle/caches/transforms-1/files-1.1/android-jsc-r174650.aar/768ffe561163f905d691de07fdcd9684/AndroidManifest.xml:2:3-17
+MERGED from [org.webkit:android-jsc:r174650] /home/sudhir/.gradle/caches/transforms-1/files-1.1/android-jsc-r174650.aar/768ffe561163f905d691de07fdcd9684/AndroidManifest.xml:2:3-17
+	android:label
+		ADDED from /home/sudhir/Documents/Sudhir/UI/FoodHaveli/android/app/src/main/AndroidManifest.xml:9:7-39
+	android:icon
+		ADDED from /home/sudhir/Documents/Sudhir/UI/FoodHaveli/android/app/src/main/AndroidManifest.xml:10:7-41
+	android:allowBackup
+		ADDED from /home/sudhir/Documents/Sudhir/UI/FoodHaveli/android/app/src/main/AndroidManifest.xml:11:7-34
+	android:theme
+		ADDED from /home/sudhir/Documents/Sudhir/UI/FoodHaveli/android/app/src/main/AndroidManifest.xml:12:7-38
+	android:name
+		ADDED from /home/sudhir/Documents/Sudhir/UI/FoodHaveli/android/app/src/main/AndroidManifest.xml:8:7-38
+activity#com.foodhaveli.MainActivity
+ADDED from /home/sudhir/Documents/Sudhir/UI/FoodHaveli/android/app/src/main/AndroidManifest.xml:13:7-22:18
+	android:label
+		ADDED from /home/sudhir/Documents/Sudhir/UI/FoodHaveli/android/app/src/main/AndroidManifest.xml:15:9-41
+	android:windowSoftInputMode
+		ADDED from /home/sudhir/Documents/Sudhir/UI/FoodHaveli/android/app/src/main/AndroidManifest.xml:17:9-51
+	android:configChanges
+		ADDED from /home/sudhir/Documents/Sudhir/UI/FoodHaveli/android/app/src/main/AndroidManifest.xml:16:9-79
+	android:name
+		ADDED from /home/sudhir/Documents/Sudhir/UI/FoodHaveli/android/app/src/main/AndroidManifest.xml:14:9-37
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from /home/sudhir/Documents/Sudhir/UI/FoodHaveli/android/app/src/main/AndroidManifest.xml:18:9-21:25
+action#android.intent.action.MAIN
+ADDED from /home/sudhir/Documents/Sudhir/UI/FoodHaveli/android/app/src/main/AndroidManifest.xml:19:13-65
+	android:name
+		ADDED from /home/sudhir/Documents/Sudhir/UI/FoodHaveli/android/app/src/main/AndroidManifest.xml:19:21-62
+category#android.intent.category.LAUNCHER
+ADDED from /home/sudhir/Documents/Sudhir/UI/FoodHaveli/android/app/src/main/AndroidManifest.xml:20:13-73
+	android:name
+		ADDED from /home/sudhir/Documents/Sudhir/UI/FoodHaveli/android/app/src/main/AndroidManifest.xml:20:23-70
+activity#com.facebook.react.devsupport.DevSettingsActivity
+ADDED from /home/sudhir/Documents/Sudhir/UI/FoodHaveli/android/app/src/main/AndroidManifest.xml:23:7-84
+	android:name
+		ADDED from /home/sudhir/Documents/Sudhir/UI/FoodHaveli/android/app/src/main/AndroidManifest.xml:23:17-81
+uses-sdk
+INJECTED from /home/sudhir/Documents/Sudhir/UI/FoodHaveli/android/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /home/sudhir/Documents/Sudhir/UI/FoodHaveli/android/app/src/main/AndroidManifest.xml
+INJECTED from /home/sudhir/Documents/Sudhir/UI/FoodHaveli/android/app/src/main/AndroidManifest.xml
+MERGED from [com.facebook.react:react-native:0.57.4] /home/sudhir/.gradle/caches/transforms-1/files-1.1/react-native-0.57.4.aar/d792d35a42be139e1a5aa7fd7a4d7169/AndroidManifest.xml:7:5-9:41
+MERGED from [com.facebook.react:react-native:0.57.4] /home/sudhir/.gradle/caches/transforms-1/files-1.1/react-native-0.57.4.aar/d792d35a42be139e1a5aa7fd7a4d7169/AndroidManifest.xml:7:5-9:41
+MERGED from [com.android.support:appcompat-v7:27.1.1] /home/sudhir/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/c51f8db8a3237c8c48121d0971b2ae56/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:appcompat-v7:27.1.1] /home/sudhir/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/c51f8db8a3237c8c48121d0971b2ae56/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:27.1.1] /home/sudhir/.gradle/caches/transforms-1/files-1.1/support-fragment-27.1.1.aar/f3a2fe40b301fd55aae1d5d58ab71ab7/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:27.1.1] /home/sudhir/.gradle/caches/transforms-1/files-1.1/support-fragment-27.1.1.aar/f3a2fe40b301fd55aae1d5d58ab71ab7/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:27.1.1] /home/sudhir/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-27.1.1.aar/eef69d7efdc518028137069bf66c22b0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:27.1.1] /home/sudhir/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-27.1.1.aar/eef69d7efdc518028137069bf66c22b0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:27.1.1] /home/sudhir/.gradle/caches/transforms-1/files-1.1/support-core-ui-27.1.1.aar/81f43b2cd86c50dc83b340c5d62aa9e7/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:27.1.1] /home/sudhir/.gradle/caches/transforms-1/files-1.1/support-core-ui-27.1.1.aar/81f43b2cd86c50dc83b340c5d62aa9e7/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:27.1.1] /home/sudhir/.gradle/caches/transforms-1/files-1.1/support-core-utils-27.1.1.aar/922f463aa406f7d43b613314600d7512/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:27.1.1] /home/sudhir/.gradle/caches/transforms-1/files-1.1/support-core-utils-27.1.1.aar/922f463aa406f7d43b613314600d7512/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:27.1.1] /home/sudhir/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-27.1.1.aar/1883b709ad1c67f729c6f15ebf90bb8d/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:27.1.1] /home/sudhir/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-27.1.1.aar/1883b709ad1c67f729c6f15ebf90bb8d/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:27.1.1] /home/sudhir/.gradle/caches/transforms-1/files-1.1/support-compat-27.1.1.aar/6e1b3a4a1ae0041b04c6710ef0c43bf5/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:27.1.1] /home/sudhir/.gradle/caches/transforms-1/files-1.1/support-compat-27.1.1.aar/6e1b3a4a1ae0041b04c6710ef0c43bf5/AndroidManifest.xml:20:5-44
+MERGED from [com.facebook.fresco:fresco:1.10.0] /home/sudhir/.gradle/caches/transforms-1/files-1.1/fresco-1.10.0.aar/8a68dabf750472daa8b1e334945c740e/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:fresco:1.10.0] /home/sudhir/.gradle/caches/transforms-1/files-1.1/fresco-1.10.0.aar/8a68dabf750472daa8b1e334945c740e/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline-okhttp3:1.10.0] /home/sudhir/.gradle/caches/transforms-1/files-1.1/imagepipeline-okhttp3-1.10.0.aar/1050761603f7a9edf948b82ae6784701/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline-okhttp3:1.10.0] /home/sudhir/.gradle/caches/transforms-1/files-1.1/imagepipeline-okhttp3-1.10.0.aar/1050761603f7a9edf948b82ae6784701/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:drawee:1.10.0] /home/sudhir/.gradle/caches/transforms-1/files-1.1/drawee-1.10.0.aar/86f7963f96b1512d202c334db05d8d43/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:drawee:1.10.0] /home/sudhir/.gradle/caches/transforms-1/files-1.1/drawee-1.10.0.aar/86f7963f96b1512d202c334db05d8d43/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline:1.10.0] /home/sudhir/.gradle/caches/transforms-1/files-1.1/imagepipeline-1.10.0.aar/fa34b2f54bd051d615963e3dafb333b4/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline:1.10.0] /home/sudhir/.gradle/caches/transforms-1/files-1.1/imagepipeline-1.10.0.aar/fa34b2f54bd051d615963e3dafb333b4/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline-base:1.10.0] /home/sudhir/.gradle/caches/transforms-1/files-1.1/imagepipeline-base-1.10.0.aar/fa412151aa71f38779560f150ed17ec5/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline-base:1.10.0] /home/sudhir/.gradle/caches/transforms-1/files-1.1/imagepipeline-base-1.10.0.aar/fa412151aa71f38779560f150ed17ec5/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.soloader:soloader:0.5.1] /home/sudhir/.gradle/caches/transforms-1/files-1.1/soloader-0.5.1.aar/302e61d21ee13c325953288456d08cb2/AndroidManifest.xml:7:5-9:41
+MERGED from [com.facebook.soloader:soloader:0.5.1] /home/sudhir/.gradle/caches/transforms-1/files-1.1/soloader-0.5.1.aar/302e61d21ee13c325953288456d08cb2/AndroidManifest.xml:7:5-9:41
+MERGED from [android.arch.lifecycle:livedata-core:1.1.0] /home/sudhir/.gradle/caches/transforms-1/files-1.1/livedata-core-1.1.0.aar/57572345e1b7e75c0a5fdd164e86e8ed/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.0] /home/sudhir/.gradle/caches/transforms-1/files-1.1/livedata-core-1.1.0.aar/57572345e1b7e75c0a5fdd164e86e8ed/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.0] /home/sudhir/.gradle/caches/transforms-1/files-1.1/viewmodel-1.1.0.aar/0a2100735ffff788c43bc996af0e4545/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.0] /home/sudhir/.gradle/caches/transforms-1/files-1.1/viewmodel-1.1.0.aar/0a2100735ffff788c43bc996af0e4545/AndroidManifest.xml:20:5-44
+MERGED from [com.facebook.fresco:fbcore:1.10.0] /home/sudhir/.gradle/caches/transforms-1/files-1.1/fbcore-1.10.0.aar/85a68e964a41a20e8ec3ca88bf9dad95/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:fbcore:1.10.0] /home/sudhir/.gradle/caches/transforms-1/files-1.1/fbcore-1.10.0.aar/85a68e964a41a20e8ec3ca88bf9dad95/AndroidManifest.xml:5:5-7:41
+MERGED from [android.arch.lifecycle:runtime:1.1.0] /home/sudhir/.gradle/caches/transforms-1/files-1.1/runtime-1.1.0.aar/f739982104944d52de07d79f49b69c38/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.0] /home/sudhir/.gradle/caches/transforms-1/files-1.1/runtime-1.1.0.aar/f739982104944d52de07d79f49b69c38/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.0] /home/sudhir/.gradle/caches/transforms-1/files-1.1/runtime-1.1.0.aar/7880f0ac1ca2bccdc783103076db78e9/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.0] /home/sudhir/.gradle/caches/transforms-1/files-1.1/runtime-1.1.0.aar/7880f0ac1ca2bccdc783103076db78e9/AndroidManifest.xml:20:5-44
+INJECTED from /home/sudhir/Documents/Sudhir/UI/FoodHaveli/android/app/src/main/AndroidManifest.xml
+INJECTED from /home/sudhir/Documents/Sudhir/UI/FoodHaveli/android/app/src/main/AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from /home/sudhir/Documents/Sudhir/UI/FoodHaveli/android/app/src/main/AndroidManifest.xml
+		ADDED from /home/sudhir/Documents/Sudhir/UI/FoodHaveli/android/app/src/main/AndroidManifest.xml
+		INJECTED from /home/sudhir/Documents/Sudhir/UI/FoodHaveli/android/app/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /home/sudhir/Documents/Sudhir/UI/FoodHaveli/android/app/src/main/AndroidManifest.xml
+		ADDED from /home/sudhir/Documents/Sudhir/UI/FoodHaveli/android/app/src/main/AndroidManifest.xml
+		INJECTED from /home/sudhir/Documents/Sudhir/UI/FoodHaveli/android/app/src/main/AndroidManifest.xml
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+IMPLIED from /home/sudhir/Documents/Sudhir/UI/FoodHaveli/android/app/src/main/AndroidManifest.xml:1:1-26:12 reason: org.webkit.android_jsc has a targetSdkVersion < 4
+uses-permission#android.permission.READ_PHONE_STATE
+IMPLIED from /home/sudhir/Documents/Sudhir/UI/FoodHaveli/android/app/src/main/AndroidManifest.xml:1:1-26:12 reason: org.webkit.android_jsc has a targetSdkVersion < 4
+uses-permission#android.permission.READ_EXTERNAL_STORAGE
+IMPLIED from /home/sudhir/Documents/Sudhir/UI/FoodHaveli/android/app/src/main/AndroidManifest.xml:1:1-26:12 reason: org.webkit.android_jsc requested WRITE_EXTERNAL_STORAGE
