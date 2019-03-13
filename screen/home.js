@@ -1,51 +1,29 @@
-import React, {Component} from 'react';
-import {Button,Platform,Alert,FlatList, StyleSheet,ActivityIndicator, Text, View} from 'react-native';
 
+import React, {Component} from 'react';
+import {Button,Platform,TouchableOpacity, StyleSheet, Text, View} from 'react-native';
+import ItemList from './itemList.js'
+import Entypo from 'react-native-vector-icons/Entypo';
 
 export default class home extends Component {
-    _onPressButton() {
-        Alert.alert('You tapped the button!')
-      }
-      constructor(props){
-        super(props);
-        this.state ={ isLoading: true}
-      }
-      componentDidMount(){
-        return fetch('https://facebook.github.io/react-native/movies.json')
-          .then((response) => response.json())
-          .then((responseJson) => {
-    
-            this.setState({
-              isLoading: false,
-              dataSource: responseJson.movies,
-            }, function(){
-    
-            });
-    
-          })
-          .catch((error) =>{
-            console.error(error);
-          });
-      }
-    
+   
+  static navigationOptions = {
+    title: 'Menu',
+  };
       render() {
-        if(this.state.isLoading){
-          return(
-            <View style={{flex: 1, padding: 20}}>
-              <ActivityIndicator/>
-            </View>
-          )
-        }
+        const {navigate} = this.props.navigation;
         return (
-          <View style={{flex:1, borderWidth:1}}>
-             <View style={{flex: 1, paddingTop:20}}>
-          <FlatList
-            data={this.state.dataSource}
-            renderItem={({item}) => <Text>{item.title} {item.releaseYear} {"Subscribe"}</Text>}
-            keyExtractor={({id}, index) => id}
-          />
-        </View>
-            
+          <View style={{flex:9, borderWidth:1}}>
+          
+          <TouchableOpacity onPress={() => this.props.navigation.openDrawer()} >
+          <Entypo name="menu"  size={50} color={'#9400D3'} />
+              
+          </TouchableOpacity>
+         
+            <ItemList/>
+            {/* <Text style={{color: 'blue'}}
+                onPress={() => Linking.openURL('https://www.google.com')}>
+            Google
+          </Text> */}
           </View>
         );
       }
@@ -75,4 +53,4 @@ export default class home extends Component {
       height: 40,
    },
   });
-  
+ 

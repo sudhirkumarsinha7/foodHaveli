@@ -9,11 +9,15 @@
 
 import React, {Component} from 'react';
 import {Button,Platform,Alert,SafeAreaView, StyleSheet,Image, Text, View} from 'react-native';
-import {createStackNavigator, TabNavigator,createAppContainer} from 'react-navigation';
+import {createStackNavigator, TabNavigator,createDrawerNavigator} from 'react-navigation';
 
 import login from './screen/login.js';
 import singup from './screen/singup.js';
 import home from './screen/home.js';
+import mySubscribe from './screen/mySubscribe.js';
+import menu from './screen/Menu.js';
+
+
 
 export default class App extends Component {
   constructor(props) {
@@ -90,7 +94,7 @@ export default class App extends Component {
       render() {
         if(this.state.isInitialised){
           return (
-            <SafeAreaView style={{flex:1,backgroundColor:'#f7f7f7',shadowOpacity:0,}}><SimpleApp /></SafeAreaView>
+            <SafeAreaView style={{flex:1,backgroundColor:'#f7f7f7',shadowOpacity:0,}}><Sample /></SafeAreaView>
             );
         } else {
           return null;
@@ -104,15 +108,18 @@ const SimpleApp = TabNavigator({
     home: { screen: home },
     login: { screen: login },
     singup: { screen: singup },
+    mySubscribe: { screen: mySubscribe },
+    menu:{screen:menu}
  }, {
   cardStyle: { shadowColor: 'transparent' },
 });
 
 
-export const navigate = createStackNavigator({
-  home: { screen: home },
+export const Sample = createDrawerNavigator({
   login: { screen: login },
   singup: { screen: singup },
+  mySubscribe: { screen: mySubscribe },
+  menu:{screen:menu}
 }, {
 cardStyle: { shadowColor: 'transparent' },
 });
