@@ -1,6 +1,14 @@
 
 import React, {Component} from 'react';
-import {Button,Platform,TouchableOpacity, StyleSheet, Text, View} from 'react-native';
+import {Button,
+  Platform,
+  TouchableOpacity,
+   StyleSheet, 
+   Text,
+   Header,
+   Left,
+   Right, 
+   View} from 'react-native';
 import ItemList from './itemList.js'
 import Entypo from 'react-native-vector-icons/Entypo';
 
@@ -14,9 +22,8 @@ export default class home extends Component {
         return (
           <View style={{flex:9, borderWidth:1}}>
           
-          <TouchableOpacity onPress={() => this.props.navigation.openDrawer()} >
+          <TouchableOpacity  onPress={() => this.props.navigation.openDrawer()} >
           <Entypo name="menu"  size={50} color={'#9400D3'} />
-              
           </TouchableOpacity>
          
             <ItemList/>

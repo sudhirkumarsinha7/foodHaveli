@@ -2,6 +2,7 @@
 import React, {Component} from 'react';
 import {Button,
   TouchableOpacity,
+  TouchableHighlight,
   FlatList, 
   StyleSheet,
   ActivityIndicator, 
@@ -41,8 +42,8 @@ export default class itemList extends Component {
             console.error(error);
           });
       }
-    _onPressButton() {
-        Alert.alert('You tapped the button!')
+      _onPress(item) {
+        Alert.alert('You tapped the button  '+item.title)
       }
       
       // _itemListApiCall(){
@@ -61,11 +62,26 @@ export default class itemList extends Component {
         return (
           <View style={{flex:1, borderWidth:1}}>
                
-              <FlatList
+              {/* <FlatList
                 data={this.state.dataSource}
                 renderItem={({item}) => <Text>{item.title} {item.releaseYear} {"Subscribe"}</Text>}
                 keyExtractor={({id}, index) => id}
+              /> */}
+               <FlatList
+                data={this.state.dataSource}
+                renderItem={({item, separators}) => (
+                  <TouchableHighlight
+                    onPress={() => this._onPress(item)}
+                    onShowUnderlay={separators.title}
+                    onHideUnderlay={separators.releaseYear}>
+                    <View style={{backgroundColor: 'white'}}>
+                      <Text>{item.title}    {item.releaseYear} </Text>
+                    </View>
+                  </TouchableHighlight>
+                )}
               />
+              
+
               <View style={{flex:0,flexDirection:'row' ,borderWidth:1,backgroundColor: '#9400D3' }}>
               <TouchableOpacity >
               <Icon name="home"  size={28} color={'#FFFFFF'} />

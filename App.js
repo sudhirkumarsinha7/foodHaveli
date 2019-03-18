@@ -16,6 +16,8 @@ import singup from './screen/singup.js';
 import home from './screen/home.js';
 import mySubscribe from './screen/mySubscribe.js';
 import menu from './screen/Menu.js';
+//import schedule from './screen/schedule.js';
+
 
 
 
@@ -116,10 +118,12 @@ const SimpleApp = TabNavigator({
 
 
 export const Sample = createDrawerNavigator({
+  home: { screen: home },
   login: { screen: login },
   singup: { screen: singup },
   mySubscribe: { screen: mySubscribe },
-  menu:{screen:menu}
+  home: { screen: home },
+  //schedule:{screen:schedule}
 }, {
 cardStyle: { shadowColor: 'transparent' },
 });
