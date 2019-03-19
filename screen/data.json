@@ -1,27 +1,47 @@
-{
-    "Items":[{
-    "itemId": "1",
-    "itemName":"item 1",
-    "itemQuantity":50,
-    "itemUnit":"gram",
-    "itemAvailability" :"Breakfast" ,
-    "itemImage":"img"
-    },
-    {  "itemId": "2",
-        "itemName":"item 2",
-        "itemQuantity":50,
-        "itemUnit":"gram",
-        "itemAvailability" :"lunch" ,
-        "itemImage":"img"
-    },
-    {  "itemId": "3",
-        "itemName":"item 4",
-        "itemQuantity":50,
-        "itemUnit":"gram",
-        "itemAvailability" :"dinner" ,
-        "itemImage":"img"
-    }
-]
-}
 
+{
+    "APIUrlPart1":"https://api-staging-saus.internal.kii.com/api/apps/",
+    "APIUrlPart2":"/server-code/versions/current/",
+    "environment":{
+        "Tank":{
+            "testing":{
+                "Content-Type":"application/json",
+                "X-Kii-AppID":"c83rb7lkt1hu",
+                "X-Kii-AppKey":"b86ad3f4c8d44bdbbf9374496544c962",
+                "fracTankBinId": "2596",
+                "fracTankName":"21,000 gal Frac tank"
+            }
+        }
+    },
+    "SmartBinAPIurlPart1": "https://secure.smartbin.com/SBLab/wsapi?apikey=*",
+    "SmartBinAPIurlPart2": "&apiname=REST.",
+    "SmartBinAPIKey":{
+        "testing":"4770C2A4BEA9B3FBF6F4DE597C48AE3D111A76C0",
+        "staging":"080D53C90398C99CDB0209897E435972BB5CE7A5"
+    },
+    "consoleStatements":false,
+    "APNSDevelopmentEnv":false,
+    "FCMDevelopmentEnv":false,
+    "mailRecipients":[""],
+    "mailCCRecipients":[""],
+    "mailSubject":"Log Report",
+    "mailBody":"Log file",
+    "googleKey":"AIzaSyBW9Jo75zci_d17Y06Bxlhw3ivx_HbKZ14",
+    "assetPassword":"123ABC",
+    "setAssetStatus":"OK",
+    "default":{
+        "userStatusWhenLoggedIn": "Active",
+        "defaultInnerTab":"Map",
+        "filterRadiusForSlider":"50",
+        "environment":"staging",
+        "fracTankBinId": "2596",
+        "fracTankName":"21,000 gal Frac tank",
+        "locationForMap":{
+            "lat":37.7749,
+            "lon":-122.4194
+        }
+    },
+    "tenantWithTemperatureModeON":["Long Range Wireless"],
+    "secretScreenCount":3
+}
 

@@ -7,7 +7,8 @@ import {Button,
   StyleSheet,
   ActivityIndicator, 
   Text,
-  Alert, 
+  Alert,
+  TabNavigator, 
   View} from 'react-native';
 import Icon from 'react-native-vector-icons/FontAwesome';
 import AntDesign from 'react-native-vector-icons/AntDesign';
@@ -18,7 +19,9 @@ import Entypo from 'react-native-vector-icons/Entypo';
 import style from '../styleSheets/styles.js';
 import login from './login.js';
 
-
+var demo={
+  "title": "test"
+};
 export default class itemList extends Component {
    
       constructor(props){
@@ -45,7 +48,8 @@ export default class itemList extends Component {
       _onPress(item) {
         Alert.alert('You tapped the button  '+item.title)
       }
-      
+  
+     
       // _itemListApiCall(){
       //   new logs().write("ItemList API calll");
       //   this.setState({ isLoading: true });
@@ -82,36 +86,15 @@ export default class itemList extends Component {
               />
               
 
-              <View style={{flex:0,flexDirection:'row' ,borderWidth:1,backgroundColor: '#9400D3' }}>
-              <TouchableOpacity >
-              <Icon name="home"  size={28} color={'#FFFFFF'} />
-              <Text style={style.iconText}>Home            </Text>
-              </TouchableOpacity>  
-              
-              <TouchableOpacity >
-              <Icon name="calendar" size={28} color={'#FFFFFF'}  />
-              <Text style={style.iconText} >Schedule      </Text>
-              </TouchableOpacity> 
-              <TouchableOpacity >
-              <AntDesign name="wallet" size={28} color={'#FFFFFF'} />
-              <Text style={style.iconText} >Wallet         </Text>
-              </TouchableOpacity> 
-              <TouchableOpacity >
-              <Icon name="list-alt" size={28} color={'#FFFFFF'} />
-              <Text style={style.iconText}>Plans         </Text>
-              </TouchableOpacity> 
-              <TouchableOpacity >
-              <Icon name="support" size={28} color={'#FFFFFF'} />
-              <Text style={style.iconText}>Support</Text>
-              </TouchableOpacity> 
-              </View>
             
           </View>
         );
       }
 }
 
-  const styles = StyleSheet.create({
+
+
+const styles = StyleSheet.create({
     container: {
       flex: 1,
       justifyContent: 'center',

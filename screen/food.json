@@ -1,0 +1,25 @@
+{
+    "Items":[{
+    "itemId": "1",
+    "itemName":"item 1",
+    "itemQuantity":50,
+    "itemUnit":"gram",
+    "itemAvailability" :"Breakfast" ,
+    "itemImage":"img"
+    },
+    {  "itemId": "2",
+        "itemName":"item 2",
+        "itemQuantity":50,
+        "itemUnit":"gram",
+        "itemAvailability" :"lunch" ,
+        "itemImage":"img"
+    },
+    {  "itemId": "3",
+        "itemName":"item 4",
+        "itemQuantity":50,
+        "itemUnit":"gram",
+        "itemAvailability" :"dinner" ,
+        "itemImage":"img"
+    }
+]
+}

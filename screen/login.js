@@ -22,6 +22,10 @@ export default class login extends Component {
       handlePassword = (text) => {
         this.setState({ password: text })
       }
+      _validated(txt) {
+        Alert.alert('You tapped the button  '+item.title)
+      }
+  
       login = (Username, pass) => {
         alert('Username: ' + Username + ' password: ' + pass)
       }
@@ -46,7 +50,7 @@ export default class login extends Component {
           <TouchableOpacity
             style = {styles.submitButton}
             onPress = {
-                () => this.login(this.state.email, this.state.password)
+                () => this.login(this.state.Username, this.state.password)
             }>
             <Text style = {styles.submitButtonText}> Submit </Text>
           </TouchableOpacity>

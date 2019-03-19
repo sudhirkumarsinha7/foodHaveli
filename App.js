@@ -16,7 +16,7 @@ import singup from './screen/singup.js';
 import home from './screen/home.js';
 import mySubscribe from './screen/mySubscribe.js';
 import menu from './screen/Menu.js';
-//import schedule from './screen/schedule.js';
+import schedule from './screen/schedule.js';
 
 
 
@@ -123,7 +123,7 @@ export const Sample = createDrawerNavigator({
   singup: { screen: singup },
   mySubscribe: { screen: mySubscribe },
   home: { screen: home },
-  //schedule:{screen:schedule}
+  schedule:{screen:schedule},
 }, {
 cardStyle: { shadowColor: 'transparent' },
 });
