@@ -1,5 +1,6 @@
 import React, {Component} from 'react';
 import { Platform, View, ScrollView,Text, TouchableOpacity, TextInput, StyleSheet } from 'react-native'
+import login from './screen/login.js';
 
 
 export default class signup extends Component {
@@ -36,7 +37,12 @@ export default class signup extends Component {
         this.setState({ mobile: text })
       }
       singnup = (Name, username,password,email,address,mobile) => {
-        alert('Name: ' + Name + ' username: ' + username+'password: ' + password + ' email: ' + email+'address: ' + address + ' mobile: ' + mobile)
+        if(isNotEmpty(Name)&&isNotEmpty(username)){ 
+          alert('Name: ' + Name + ' username: ' + username+'password: ' + password + ' email: ' + email+'address: ' + address + ' mobile: ' + mobile)
+        }
+          else{
+            alert("Please enter corret Details")
+          }
       }
   render() {
     return (

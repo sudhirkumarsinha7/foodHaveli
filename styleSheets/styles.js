@@ -10,5 +10,11 @@ export default StyleSheet.create({
         fontSize: 20,
         fontWeight: 'bold',
       },
+      inputHeading: { 
+        marginLeft: 10, 
+        fontSize: 14,
+        marginTop: 20,
+        color: "#333",
+    },
      
 });

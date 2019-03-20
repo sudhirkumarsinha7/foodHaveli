@@ -9,15 +9,19 @@
 
 import React, {Component} from 'react';
 import { Platform, View, Text, TouchableOpacity, TextInput, StyleSheet } from 'react-native'
-
-
+function isNotEmpty(element) {
+  return (element !== "" && typeof element !== "undefined") ? true : false;
+}
 export default class login extends Component {
         state = {
-        email: '',
-        password: ''
+        Username: '',
+        UsernameError: null,
+        password: '',
+        inFocus: ""
       }
       handleUsername = (text) => {
         this.setState({ Username: text })
+        
       }
       handlePassword = (text) => {
         this.setState({ password: text })
@@ -27,23 +31,29 @@ export default class login extends Component {
       }
   
       login = (Username, pass) => {
+        if(isNotEmpty(Username)&&isNotEmpty(pass)){ 
         alert('Username: ' + Username + ' password: ' + pass)
+        }
+        else{
+          alert("Please enter corret Details")
+        }
       }
   render() {
     return (
       <View style = {styles.container}>
-        <Text style={styles.welcome}>LogIn Portal</Text>  
+        <Text style={styles.welcome}>LogIn Portal</Text>
+        <Text style={[styles.inputHeading]}>  UserName:</Text>
         <TextInput style = {styles.input}
-            underlineColorAndroid = "transparent"
+            onChangeText = {this.handleUsername}
             placeholder = "Username"
             placeholderTextColor = "#9a73ef"
             autoCapitalize = "none"
-            onChangeText = {this.handleUsername}/>
-          
+            />
+          <Text style={[styles.inputHeading]}>  Password:</Text>
           <TextInput style = {styles.input}
             underlineColorAndroid = "transparent"
             placeholder = "Password"
-            placeholderTextColor = "#9a73ef"
+            secureTextEntry={true}
             autoCapitalize = "none"
             onChangeText = {this.handlePassword}/>
           
