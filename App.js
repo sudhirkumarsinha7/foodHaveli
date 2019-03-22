@@ -17,6 +17,11 @@ import home from './screen/home.js';
 import mySubscribe from './screen/mySubscribe.js';
 import menu from './screen/Menu.js';
 import schedule from './screen/schedule.js';
+import chart from './screen/chart.js';
+import StackedAreaExample from './screen/StackedAreaExample.js';
+import PieChartExample from './screen/PieChartExample.js';
+
+
 
 
 
@@ -124,6 +129,9 @@ export const Sample = createDrawerNavigator({
   mySubscribe: { screen: mySubscribe },
   home: { screen: home },
   schedule:{screen:schedule},
+  chart:{screen:chart},
+  StackedAreaExample:{screen:StackedAreaExample},
+  PieChartExample:{screen:PieChartExample},
 }, {
 cardStyle: { shadowColor: 'transparent' },
 });

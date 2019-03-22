@@ -1,6 +1,5 @@
 import React, {Component} from 'react';
 import { Platform, View, ScrollView,Text, TouchableOpacity, TextInput, StyleSheet } from 'react-native'
-import login from './screen/login.js';
 
 
 export default class signup extends Component {
