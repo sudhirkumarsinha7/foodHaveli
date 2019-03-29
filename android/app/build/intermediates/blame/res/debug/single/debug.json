@@ -228,6 +228,10 @@
         "source": "/home/sudhir/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/c51f8db8a3237c8c48121d0971b2ae56/res/drawable-hdpi-v4/abc_ic_star_black_36dp.png"
     },
     {
+        "merged": "/home/sudhir/Documents/Sudhir/UI/FoodHaveli/android/app/build/intermediates/res/merged/debug/xml_filepaths.xml.flat",
+        "source": "/home/sudhir/Documents/Sudhir/UI/FoodHaveli/node_modules/react-native-doc-viewer/android/build/intermediates/packaged_res/debug/xml/filepaths.xml"
+    },
+    {
         "merged": "/home/sudhir/Documents/Sudhir/UI/FoodHaveli/android/app/build/intermediates/res/merged/debug/anim_abc_fade_in.xml.flat",
         "source": "/home/sudhir/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/c51f8db8a3237c8c48121d0971b2ae56/res/anim/abc_fade_in.xml"
     },
@@ -764,6 +768,10 @@
         "source": "/home/sudhir/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/c51f8db8a3237c8c48121d0971b2ae56/res/drawable/abc_seekbar_track_material.xml"
     },
     {
+        "merged": "/home/sudhir/Documents/Sudhir/UI/FoodHaveli/android/app/build/intermediates/res/merged/debug/xml_provider_paths.xml.flat",
+        "source": "/home/sudhir/Documents/Sudhir/UI/FoodHaveli/node_modules/react-native-image-picker/android/build/intermediates/packaged_res/debug/xml/provider_paths.xml"
+    },
+    {
         "merged": "/home/sudhir/Documents/Sudhir/UI/FoodHaveli/android/app/build/intermediates/res/merged/debug/drawable_abc_ic_go_search_api_material.xml.flat",
         "source": "/home/sudhir/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/c51f8db8a3237c8c48121d0971b2ae56/res/drawable/abc_ic_go_search_api_material.xml"
     },
@@ -890,6 +898,10 @@
     {
         "merged": "/home/sudhir/Documents/Sudhir/UI/FoodHaveli/android/app/build/intermediates/res/merged/debug/color-v23_abc_btn_colored_text_material.xml.flat",
         "source": "/home/sudhir/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/c51f8db8a3237c8c48121d0971b2ae56/res/color-v23/abc_btn_colored_text_material.xml"
+    },
+    {
+        "merged": "/home/sudhir/Documents/Sudhir/UI/FoodHaveli/android/app/build/intermediates/res/merged/debug/layout_list_item.xml.flat",
+        "source": "/home/sudhir/Documents/Sudhir/UI/FoodHaveli/node_modules/react-native-image-picker/android/build/intermediates/packaged_res/debug/layout/list_item.xml"
     },
     {
         "merged": "/home/sudhir/Documents/Sudhir/UI/FoodHaveli/android/app/build/intermediates/res/merged/debug/drawable_abc_ratingbar_material.xml.flat",

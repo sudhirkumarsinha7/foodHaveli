@@ -4,6 +4,12 @@ ADDED from /home/sudhir/Documents/Sudhir/UI/FoodHaveli/android/app/src/main/Andr
 INJECTED from /home/sudhir/Documents/Sudhir/UI/FoodHaveli/android/app/src/main/AndroidManifest.xml:1:1-26:12
 INJECTED from /home/sudhir/Documents/Sudhir/UI/FoodHaveli/android/app/src/main/AndroidManifest.xml:1:1-26:12
 INJECTED from /home/sudhir/Documents/Sudhir/UI/FoodHaveli/android/app/src/main/AndroidManifest.xml:1:1-26:12
+MERGED from [:react-native-image-picker] /home/sudhir/Documents/Sudhir/UI/FoodHaveli/node_modules/react-native-image-picker/android/build/intermediates/manifests/full/debug/AndroidManifest.xml:2:1-23:12
+MERGED from [:rn-fetch-blob] /home/sudhir/Documents/Sudhir/UI/FoodHaveli/node_modules/rn-fetch-blob/android/build/intermediates/manifests/full/debug/AndroidManifest.xml:2:1-47:12
+MERGED from [:react-native-fs] /home/sudhir/Documents/Sudhir/UI/FoodHaveli/node_modules/react-native-fs/android/build/intermediates/manifests/full/debug/AndroidManifest.xml:2:1-13:12
+MERGED from [:react-native-doc-viewer] /home/sudhir/Documents/Sudhir/UI/FoodHaveli/node_modules/react-native-doc-viewer/android/build/intermediates/manifests/full/debug/AndroidManifest.xml:2:1-26:12
+MERGED from [:react-native-svg] /home/sudhir/Documents/Sudhir/UI/FoodHaveli/node_modules/react-native-svg/android/build/intermediates/manifests/full/debug/AndroidManifest.xml:2:1-9:12
+MERGED from [:react-native-vector-icons] /home/sudhir/Documents/Sudhir/UI/FoodHaveli/node_modules/react-native-vector-icons/android/build/intermediates/manifests/full/debug/AndroidManifest.xml:2:1-11:12
 MERGED from [com.facebook.react:react-native:0.57.4] /home/sudhir/.gradle/caches/transforms-1/files-1.1/react-native-0.57.4.aar/d792d35a42be139e1a5aa7fd7a4d7169/AndroidManifest.xml:2:1-15:12
 MERGED from [com.android.support:appcompat-v7:27.1.1] /home/sudhir/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/c51f8db8a3237c8c48121d0971b2ae56/AndroidManifest.xml:17:1-22:12
 MERGED from [com.android.support:support-fragment:27.1.1] /home/sudhir/.gradle/caches/transforms-1/files-1.1/support-fragment-27.1.1.aar/f3a2fe40b301fd55aae1d5d58ab71ab7/AndroidManifest.xml:17:1-22:12
@@ -43,6 +49,10 @@ INJECTED from /home/sudhir/Documents/Sudhir/UI/FoodHaveli/android/app/src/main/A
 		ADDED from /home/sudhir/Documents/Sudhir/UI/FoodHaveli/android/app/src/main/AndroidManifest.xml:1:11-69
 uses-permission#android.permission.INTERNET
 ADDED from /home/sudhir/Documents/Sudhir/UI/FoodHaveli/android/app/src/main/AndroidManifest.xml:4:5-67
+MERGED from [:rn-fetch-blob] /home/sudhir/Documents/Sudhir/UI/FoodHaveli/node_modules/rn-fetch-blob/android/build/intermediates/manifests/full/debug/AndroidManifest.xml:15:5-67
+MERGED from [:rn-fetch-blob] /home/sudhir/Documents/Sudhir/UI/FoodHaveli/node_modules/rn-fetch-blob/android/build/intermediates/manifests/full/debug/AndroidManifest.xml:15:5-67
+MERGED from [:react-native-doc-viewer] /home/sudhir/Documents/Sudhir/UI/FoodHaveli/node_modules/react-native-doc-viewer/android/build/intermediates/manifests/full/debug/AndroidManifest.xml:11:5-67
+MERGED from [:react-native-doc-viewer] /home/sudhir/Documents/Sudhir/UI/FoodHaveli/node_modules/react-native-doc-viewer/android/build/intermediates/manifests/full/debug/AndroidManifest.xml:11:5-67
 	android:name
 		ADDED from /home/sudhir/Documents/Sudhir/UI/FoodHaveli/android/app/src/main/AndroidManifest.xml:4:22-64
 uses-permission#android.permission.SYSTEM_ALERT_WINDOW
@@ -53,6 +63,12 @@ MERGED from [com.facebook.react:react-native:0.57.4] /home/sudhir/.gradle/caches
 		ADDED from /home/sudhir/Documents/Sudhir/UI/FoodHaveli/android/app/src/main/AndroidManifest.xml:5:22-75
 application
 ADDED from /home/sudhir/Documents/Sudhir/UI/FoodHaveli/android/app/src/main/AndroidManifest.xml:7:5-24:19
+MERGED from [:react-native-image-picker] /home/sudhir/Documents/Sudhir/UI/FoodHaveli/node_modules/react-native-image-picker/android/build/intermediates/manifests/full/debug/AndroidManifest.xml:11:5-21:19
+MERGED from [:react-native-image-picker] /home/sudhir/Documents/Sudhir/UI/FoodHaveli/node_modules/react-native-image-picker/android/build/intermediates/manifests/full/debug/AndroidManifest.xml:11:5-21:19
+MERGED from [:rn-fetch-blob] /home/sudhir/Documents/Sudhir/UI/FoodHaveli/node_modules/rn-fetch-blob/android/build/intermediates/manifests/full/debug/AndroidManifest.xml:35:5-45:19
+MERGED from [:rn-fetch-blob] /home/sudhir/Documents/Sudhir/UI/FoodHaveli/node_modules/rn-fetch-blob/android/build/intermediates/manifests/full/debug/AndroidManifest.xml:35:5-45:19
+MERGED from [:react-native-doc-viewer] /home/sudhir/Documents/Sudhir/UI/FoodHaveli/node_modules/react-native-doc-viewer/android/build/intermediates/manifests/full/debug/AndroidManifest.xml:14:5-24:19
+MERGED from [:react-native-doc-viewer] /home/sudhir/Documents/Sudhir/UI/FoodHaveli/node_modules/react-native-doc-viewer/android/build/intermediates/manifests/full/debug/AndroidManifest.xml:14:5-24:19
 MERGED from [com.facebook.react:react-native:0.57.4] /home/sudhir/.gradle/caches/transforms-1/files-1.1/react-native-0.57.4.aar/d792d35a42be139e1a5aa7fd7a4d7169/AndroidManifest.xml:13:5-20
 MERGED from [com.facebook.react:react-native:0.57.4] /home/sudhir/.gradle/caches/transforms-1/files-1.1/react-native-0.57.4.aar/d792d35a42be139e1a5aa7fd7a4d7169/AndroidManifest.xml:13:5-20
 MERGED from [com.facebook.soloader:soloader:0.5.1] /home/sudhir/.gradle/caches/transforms-1/files-1.1/soloader-0.5.1.aar/302e61d21ee13c325953288456d08cb2/AndroidManifest.xml:11:5-20
@@ -97,6 +113,18 @@ uses-sdk
 INJECTED from /home/sudhir/Documents/Sudhir/UI/FoodHaveli/android/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from /home/sudhir/Documents/Sudhir/UI/FoodHaveli/android/app/src/main/AndroidManifest.xml
 INJECTED from /home/sudhir/Documents/Sudhir/UI/FoodHaveli/android/app/src/main/AndroidManifest.xml
+MERGED from [:react-native-image-picker] /home/sudhir/Documents/Sudhir/UI/FoodHaveli/node_modules/react-native-image-picker/android/build/intermediates/manifests/full/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-image-picker] /home/sudhir/Documents/Sudhir/UI/FoodHaveli/node_modules/react-native-image-picker/android/build/intermediates/manifests/full/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:rn-fetch-blob] /home/sudhir/Documents/Sudhir/UI/FoodHaveli/node_modules/rn-fetch-blob/android/build/intermediates/manifests/full/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:rn-fetch-blob] /home/sudhir/Documents/Sudhir/UI/FoodHaveli/node_modules/rn-fetch-blob/android/build/intermediates/manifests/full/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-fs] /home/sudhir/Documents/Sudhir/UI/FoodHaveli/node_modules/react-native-fs/android/build/intermediates/manifests/full/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-fs] /home/sudhir/Documents/Sudhir/UI/FoodHaveli/node_modules/react-native-fs/android/build/intermediates/manifests/full/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-doc-viewer] /home/sudhir/Documents/Sudhir/UI/FoodHaveli/node_modules/react-native-doc-viewer/android/build/intermediates/manifests/full/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-doc-viewer] /home/sudhir/Documents/Sudhir/UI/FoodHaveli/node_modules/react-native-doc-viewer/android/build/intermediates/manifests/full/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-svg] /home/sudhir/Documents/Sudhir/UI/FoodHaveli/node_modules/react-native-svg/android/build/intermediates/manifests/full/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-svg] /home/sudhir/Documents/Sudhir/UI/FoodHaveli/node_modules/react-native-svg/android/build/intermediates/manifests/full/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-vector-icons] /home/sudhir/Documents/Sudhir/UI/FoodHaveli/node_modules/react-native-vector-icons/android/build/intermediates/manifests/full/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-vector-icons] /home/sudhir/Documents/Sudhir/UI/FoodHaveli/node_modules/react-native-vector-icons/android/build/intermediates/manifests/full/debug/AndroidManifest.xml:7:5-9:41
 MERGED from [com.facebook.react:react-native:0.57.4] /home/sudhir/.gradle/caches/transforms-1/files-1.1/react-native-0.57.4.aar/d792d35a42be139e1a5aa7fd7a4d7169/AndroidManifest.xml:7:5-9:41
 MERGED from [com.facebook.react:react-native:0.57.4] /home/sudhir/.gradle/caches/transforms-1/files-1.1/react-native-0.57.4.aar/d792d35a42be139e1a5aa7fd7a4d7169/AndroidManifest.xml:7:5-9:41
 MERGED from [com.android.support:appcompat-v7:27.1.1] /home/sudhir/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/c51f8db8a3237c8c48121d0971b2ae56/AndroidManifest.xml:20:5-44
@@ -145,8 +173,66 @@ INJECTED from /home/sudhir/Documents/Sudhir/UI/FoodHaveli/android/app/src/main/A
 		INJECTED from /home/sudhir/Documents/Sudhir/UI/FoodHaveli/android/app/src/main/AndroidManifest.xml
 		ADDED from /home/sudhir/Documents/Sudhir/UI/FoodHaveli/android/app/src/main/AndroidManifest.xml
 		INJECTED from /home/sudhir/Documents/Sudhir/UI/FoodHaveli/android/app/src/main/AndroidManifest.xml
+provider#com.imagepicker.FileProvider
+ADDED from [:react-native-image-picker] /home/sudhir/Documents/Sudhir/UI/FoodHaveli/node_modules/react-native-image-picker/android/build/intermediates/manifests/full/debug/AndroidManifest.xml:12:9-20:20
+	android:grantUriPermissions
+		ADDED from [:react-native-image-picker] /home/sudhir/Documents/Sudhir/UI/FoodHaveli/node_modules/react-native-image-picker/android/build/intermediates/manifests/full/debug/AndroidManifest.xml:16:13-47
+	android:authorities
+		ADDED from [:react-native-image-picker] /home/sudhir/Documents/Sudhir/UI/FoodHaveli/node_modules/react-native-image-picker/android/build/intermediates/manifests/full/debug/AndroidManifest.xml:14:13-60
+	android:exported
+		ADDED from [:react-native-image-picker] /home/sudhir/Documents/Sudhir/UI/FoodHaveli/node_modules/react-native-image-picker/android/build/intermediates/manifests/full/debug/AndroidManifest.xml:15:13-37
+	android:name
+		ADDED from [:react-native-image-picker] /home/sudhir/Documents/Sudhir/UI/FoodHaveli/node_modules/react-native-image-picker/android/build/intermediates/manifests/full/debug/AndroidManifest.xml:13:13-56
+meta-data#android.support.FILE_PROVIDER_PATHS
+ADDED from [:react-native-image-picker] /home/sudhir/Documents/Sudhir/UI/FoodHaveli/node_modules/react-native-image-picker/android/build/intermediates/manifests/full/debug/AndroidManifest.xml:17:13-19:58
+	android:resource
+		ADDED from [:react-native-image-picker] /home/sudhir/Documents/Sudhir/UI/FoodHaveli/node_modules/react-native-image-picker/android/build/intermediates/manifests/full/debug/AndroidManifest.xml:19:17-55
+	android:name
+		ADDED from [:react-native-image-picker] /home/sudhir/Documents/Sudhir/UI/FoodHaveli/node_modules/react-native-image-picker/android/build/intermediates/manifests/full/debug/AndroidManifest.xml:18:17-67
+uses-permission#com.android.vending.CHECK_LICENSE
+ADDED from [:rn-fetch-blob] /home/sudhir/Documents/Sudhir/UI/FoodHaveli/node_modules/rn-fetch-blob/android/build/intermediates/manifests/full/debug/AndroidManifest.xml:12:5-73
+	android:name
+		ADDED from [:rn-fetch-blob] /home/sudhir/Documents/Sudhir/UI/FoodHaveli/node_modules/rn-fetch-blob/android/build/intermediates/manifests/full/debug/AndroidManifest.xml:12:22-70
+uses-permission#android.permission.WAKE_LOCK
+ADDED from [:rn-fetch-blob] /home/sudhir/Documents/Sudhir/UI/FoodHaveli/node_modules/rn-fetch-blob/android/build/intermediates/manifests/full/debug/AndroidManifest.xml:21:5-68
+	android:name
+		ADDED from [:rn-fetch-blob] /home/sudhir/Documents/Sudhir/UI/FoodHaveli/node_modules/rn-fetch-blob/android/build/intermediates/manifests/full/debug/AndroidManifest.xml:21:22-65
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from [:rn-fetch-blob] /home/sudhir/Documents/Sudhir/UI/FoodHaveli/node_modules/rn-fetch-blob/android/build/intermediates/manifests/full/debug/AndroidManifest.xml:27:5-79
+MERGED from [:react-native-doc-viewer] /home/sudhir/Documents/Sudhir/UI/FoodHaveli/node_modules/react-native-doc-viewer/android/build/intermediates/manifests/full/debug/AndroidManifest.xml:12:5-79
+MERGED from [:react-native-doc-viewer] /home/sudhir/Documents/Sudhir/UI/FoodHaveli/node_modules/react-native-doc-viewer/android/build/intermediates/manifests/full/debug/AndroidManifest.xml:12:5-79
+	android:name
+		ADDED from [:rn-fetch-blob] /home/sudhir/Documents/Sudhir/UI/FoodHaveli/node_modules/rn-fetch-blob/android/build/intermediates/manifests/full/debug/AndroidManifest.xml:27:22-76
+uses-permission#android.permission.ACCESS_WIFI_STATE
+ADDED from [:rn-fetch-blob] /home/sudhir/Documents/Sudhir/UI/FoodHaveli/node_modules/rn-fetch-blob/android/build/intermediates/manifests/full/debug/AndroidManifest.xml:30:5-76
+	android:name
+		ADDED from [:rn-fetch-blob] /home/sudhir/Documents/Sudhir/UI/FoodHaveli/node_modules/rn-fetch-blob/android/build/intermediates/manifests/full/debug/AndroidManifest.xml:30:22-73
 uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
-IMPLIED from /home/sudhir/Documents/Sudhir/UI/FoodHaveli/android/app/src/main/AndroidManifest.xml:1:1-26:12 reason: org.webkit.android_jsc has a targetSdkVersion < 4
+ADDED from [:rn-fetch-blob] /home/sudhir/Documents/Sudhir/UI/FoodHaveli/node_modules/rn-fetch-blob/android/build/intermediates/manifests/full/debug/AndroidManifest.xml:33:5-81
+MERGED from [:react-native-fs] /home/sudhir/Documents/Sudhir/UI/FoodHaveli/node_modules/react-native-fs/android/build/intermediates/manifests/full/debug/AndroidManifest.xml:11:5-81
+MERGED from [:react-native-fs] /home/sudhir/Documents/Sudhir/UI/FoodHaveli/node_modules/react-native-fs/android/build/intermediates/manifests/full/debug/AndroidManifest.xml:11:5-81
+	android:name
+		ADDED from [:rn-fetch-blob] /home/sudhir/Documents/Sudhir/UI/FoodHaveli/node_modules/rn-fetch-blob/android/build/intermediates/manifests/full/debug/AndroidManifest.xml:33:22-78
+provider#android.support.v4.content.FileProvider
+ADDED from [:rn-fetch-blob] /home/sudhir/Documents/Sudhir/UI/FoodHaveli/node_modules/rn-fetch-blob/android/build/intermediates/manifests/full/debug/AndroidManifest.xml:36:9-44:20
+	android:grantUriPermissions
+		ADDED from [:rn-fetch-blob] /home/sudhir/Documents/Sudhir/UI/FoodHaveli/node_modules/rn-fetch-blob/android/build/intermediates/manifests/full/debug/AndroidManifest.xml:40:13-47
+	android:authorities
+		ADDED from [:rn-fetch-blob] /home/sudhir/Documents/Sudhir/UI/FoodHaveli/node_modules/rn-fetch-blob/android/build/intermediates/manifests/full/debug/AndroidManifest.xml:38:13-60
+	android:exported
+		ADDED from [:rn-fetch-blob] /home/sudhir/Documents/Sudhir/UI/FoodHaveli/node_modules/rn-fetch-blob/android/build/intermediates/manifests/full/debug/AndroidManifest.xml:39:13-37
+	android:name
+		ADDED from [:rn-fetch-blob] /home/sudhir/Documents/Sudhir/UI/FoodHaveli/node_modules/rn-fetch-blob/android/build/intermediates/manifests/full/debug/AndroidManifest.xml:37:13-67
+provider#com.reactlibrary.FileProviderClass
+ADDED from [:react-native-doc-viewer] /home/sudhir/Documents/Sudhir/UI/FoodHaveli/node_modules/react-native-doc-viewer/android/build/intermediates/manifests/full/debug/AndroidManifest.xml:15:9-23:20
+	android:grantUriPermissions
+		ADDED from [:react-native-doc-viewer] /home/sudhir/Documents/Sudhir/UI/FoodHaveli/node_modules/react-native-doc-viewer/android/build/intermediates/manifests/full/debug/AndroidManifest.xml:19:13-47
+	android:authorities
+		ADDED from [:react-native-doc-viewer] /home/sudhir/Documents/Sudhir/UI/FoodHaveli/node_modules/react-native-doc-viewer/android/build/intermediates/manifests/full/debug/AndroidManifest.xml:17:13-70
+	android:exported
+		ADDED from [:react-native-doc-viewer] /home/sudhir/Documents/Sudhir/UI/FoodHaveli/node_modules/react-native-doc-viewer/android/build/intermediates/manifests/full/debug/AndroidManifest.xml:18:13-37
+	android:name
+		ADDED from [:react-native-doc-viewer] /home/sudhir/Documents/Sudhir/UI/FoodHaveli/node_modules/react-native-doc-viewer/android/build/intermediates/manifests/full/debug/AndroidManifest.xml:16:13-62
 uses-permission#android.permission.READ_PHONE_STATE
 IMPLIED from /home/sudhir/Documents/Sudhir/UI/FoodHaveli/android/app/src/main/AndroidManifest.xml:1:1-26:12 reason: org.webkit.android_jsc has a targetSdkVersion < 4
 uses-permission#android.permission.READ_EXTERNAL_STORAGE

@@ -1,51 +1,76 @@
-import React, {Component} from 'react';
-import {Button,Platform,Alert,FlatList, StyleSheet,ActivityIndicator, Text, View} from 'react-native';
 
+import React, {Component} from 'react';
+import {Button,
+  TabNavigator,
+  TouchableOpacity,
+   StyleSheet, 
+   Text,
+   Header,
+   Left,
+    View} from 'react-native';
+import ItemList from './itemList.js'
+
+import Icon from 'react-native-vector-icons/FontAwesome';
+import AntDesign from 'react-native-vector-icons/AntDesign';
+import Entypo from 'react-native-vector-icons/Entypo';
+import style from '../styleSheets/styles.js'
 
 export default class home extends Component {
-    _onPressButton() {
-        Alert.alert('You tapped the button!')
-      }
-      constructor(props){
-        super(props);
-        this.state ={ isLoading: true}
-      }
-      componentDidMount(){
-        return fetch('https://facebook.github.io/react-native/movies.json')
-          .then((response) => response.json())
-          .then((responseJson) => {
-    
-            this.setState({
-              isLoading: false,
-              dataSource: responseJson.movies,
-            }, function(){
-    
-            });
-    
-          })
-          .catch((error) =>{
-            console.error(error);
-          });
-      }
-    
+   
+  static navigationOptions = {
+    title: 'Menu',
+  };
+ 
+
       render() {
-        if(this.state.isLoading){
-          return(
-            <View style={{flex: 1, padding: 20}}>
-              <ActivityIndicator/>
-            </View>
-          )
-        }
+        const {navigate} = this.props.navigation;
         return (
           <View style={{flex:1, borderWidth:1}}>
-             <View style={{flex: 1, paddingTop:20}}>
-          <FlatList
-            data={this.state.dataSource}
-            renderItem={({item}) => <Text>{item.title} {item.releaseYear} {"Subscribe"}</Text>}
-            keyExtractor={({id}, index) => id}
-          />
-        </View>
+          <View style={{flex:1, flexDirection:'row'}}>
+          <View style={{flex:1,flexDirection:'row'}}>
+          <TouchableOpacity  onPress={() => this.props.navigation.openDrawer()} >
+          <Entypo name="menu" size={50} color={'#9400D3'} />
+          </TouchableOpacity>
+          </View>
+          <View style={{flex:2,flexDirection:'row',}}>
+          <Text style={styles.container}>Food Haveli</Text>
+          </View>
+         
+          </View>
+          
+          <View style={{flex:9, borderWidth:1}}>  
+                  <ItemList/>
+          </View>
+          <View style={{flex:1, borderWidth:1}}>  
+         <View style={{flex:0,flexDirection:'row' ,borderWidth:1,backgroundColor: '#9400D3' }}>
+              <TouchableOpacity  onPress={() => this.props.navigation.navigate("home")}>
+              <Icon name="home"  size={28} color={'#FFFFFF'} />
+              <Text style={style.iconText}>Home            </Text>
+              </TouchableOpacity>  
+              
+              <TouchableOpacity onPress={() => this.props.navigation.navigate("schedule")}>
+              <Icon name="calendar" size={28} color={'#FFFFFF'}  />
+              <Text style={style.iconText} >Schedule      </Text>
+              </TouchableOpacity> 
+              <TouchableOpacity>
+              <AntDesign name="wallet" size={28} color={'#FFFFFF'} />
+              <Text style={style.iconText} >Wallet         </Text>
+              </TouchableOpacity> 
+              <TouchableOpacity onPress={() => this.props.navigation.navigate("mySubscribe")}>
+              <Icon name="list-alt" size={28} color={'#FFFFFF'} />
+              <Text style={style.iconText}>Plans         </Text>
+              </TouchableOpacity> 
+              <TouchableOpacity onPress={() => this.props.navigation.navigate("schedule")}>
+              <Icon name="support" size={28} color={'#FFFFFF'} />
+              <Text style={style.iconText}>Support</Text>
+              </TouchableOpacity> 
+              </View>
             
+         </View>
+            {/* <Text style={{color: 'blue'}}
+                onPress={() => Linking.openURL('https://www.google.com')}>
+            Google
+          </Text> */}
           </View>
         );
       }
@@ -53,10 +78,11 @@ export default class home extends Component {
 
   const styles = StyleSheet.create({
     container: {
-      flex: 1,
+      fontSize: 20,
       justifyContent: 'center',
       alignItems: 'center',
-      backgroundColor: '#F5FCFF',
+      margin: 15,
+      color: '#333333',
     },
     welcome: {
       fontSize: 20,
@@ -75,4 +101,5 @@ export default class home extends Component {
       height: 40,
    },
   });
-  
+
+

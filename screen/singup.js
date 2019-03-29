@@ -4,8 +4,7 @@ import { Platform, View, ScrollView,Text, TouchableOpacity, TextInput, StyleShee
 
 export default class signup extends Component {
         state = {
-        fistName: '',
-        lastName: '',
+        Name: '',
         username: '',
         password: '',
         confirmPassword: '',
@@ -13,11 +12,9 @@ export default class signup extends Component {
         address: '',
         mobile:''
       }
-      handleFistName = (text) => {
-        this.setState({ fistName: text })
-      }
-      handleLastName = (text) => {
-        this.setState({ lastName: text })
+     
+      handleName = (text) => {
+        this.setState({ Name: text })
       }
       handleUsername = (text) => {
         this.setState({ username: text })
@@ -38,29 +35,25 @@ export default class signup extends Component {
       handleMobile = (text) => {
         this.setState({ mobile: text })
       }
-      login = (username, pass) => {
-        Keyboard.dismiss();
-        alert('Username: ' + username + ' password: ' + pass)
+      singnup = (Name, username,password,email,address,mobile) => {
+        if(isNotEmpty(Name)&&isNotEmpty(username)){ 
+          alert('Name: ' + Name + ' username: ' + username+'password: ' + password + ' email: ' + email+'address: ' + address + ' mobile: ' + mobile)
+        }
+          else{
+            alert("Please enter corret Details")
+          }
       }
   render() {
     return (
       <ScrollView>
       <View style = {styles.container}>
         <Text style={styles.welcome}>Register Portal</Text> 
-        
-        <TextInput style = {styles.input}
-            underlineColorAndroid = "transparent"
-            placeholder = "FistName"
-            placeholderTextColor = "#9a73ef"
-            autoCapitalize = "none"
-            onChangeText = {this.handleFistName}/>
-          
           <TextInput style = {styles.input}
             underlineColorAndroid = "transparent"
-            placeholder = "LastName"
+            placeholder = "Name"
             placeholderTextColor = "#9a73ef"
             autoCapitalize = "none"
-            onChangeText = {this.handleLastName}/>
+            onChangeText = {this.handleName}/>
             <TextInput style = {styles.input}
             underlineColorAndroid = "transparent"
             placeholder = "Username"
@@ -104,7 +97,7 @@ export default class signup extends Component {
           <TouchableOpacity
             style = {styles.submitButton}
             onPress = {
-                () => this.login(this.state.username, this.state.password)
+                () => this.singnup(this.state.Name, this.state.username,this.state.password, this.state.email,this.state.address, this.state.mobile)
             }>
             <Text style = {styles.submitButtonText}> Submit </Text>
           </TouchableOpacity>
