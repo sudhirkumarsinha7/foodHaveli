@@ -1,9 +1,12 @@
 -- Merging decision tree log ---
 manifest
-ADDED from /home/sudhir/Documents/Sudhir/UI/FoodHaveli/android/app/src/main/AndroidManifest.xml:1:1-26:12
-INJECTED from /home/sudhir/Documents/Sudhir/UI/FoodHaveli/android/app/src/main/AndroidManifest.xml:1:1-26:12
-INJECTED from /home/sudhir/Documents/Sudhir/UI/FoodHaveli/android/app/src/main/AndroidManifest.xml:1:1-26:12
-INJECTED from /home/sudhir/Documents/Sudhir/UI/FoodHaveli/android/app/src/main/AndroidManifest.xml:1:1-26:12
+ADDED from /home/sudhir/Documents/Sudhir/UI/FoodHaveli/android/app/src/main/AndroidManifest.xml:1:1-29:12
+INJECTED from /home/sudhir/Documents/Sudhir/UI/FoodHaveli/android/app/src/main/AndroidManifest.xml:1:1-29:12
+INJECTED from /home/sudhir/Documents/Sudhir/UI/FoodHaveli/android/app/src/main/AndroidManifest.xml:1:1-29:12
+INJECTED from /home/sudhir/Documents/Sudhir/UI/FoodHaveli/android/app/src/main/AndroidManifest.xml:1:1-29:12
+MERGED from [:react-native-maps] /home/sudhir/Documents/Sudhir/UI/FoodHaveli/node_modules/react-native-maps/lib/android/build/intermediates/manifests/full/debug/AndroidManifest.xml:2:1-12:12
+MERGED from [:react-native-mail] /home/sudhir/Documents/Sudhir/UI/FoodHaveli/node_modules/react-native-mail/android/build/intermediates/manifests/full/debug/AndroidManifest.xml:2:1-11:12
+MERGED from [:react-native-geocoder] /home/sudhir/Documents/Sudhir/UI/FoodHaveli/node_modules/react-native-geocoder/android/build/intermediates/manifests/full/debug/AndroidManifest.xml:2:1-11:12
 MERGED from [:react-native-image-picker] /home/sudhir/Documents/Sudhir/UI/FoodHaveli/node_modules/react-native-image-picker/android/build/intermediates/manifests/full/debug/AndroidManifest.xml:2:1-23:12
 MERGED from [:rn-fetch-blob] /home/sudhir/Documents/Sudhir/UI/FoodHaveli/node_modules/rn-fetch-blob/android/build/intermediates/manifests/full/debug/AndroidManifest.xml:2:1-47:12
 MERGED from [:react-native-fs] /home/sudhir/Documents/Sudhir/UI/FoodHaveli/node_modules/react-native-fs/android/build/intermediates/manifests/full/debug/AndroidManifest.xml:2:1-13:12
@@ -12,11 +15,18 @@ MERGED from [:react-native-svg] /home/sudhir/Documents/Sudhir/UI/FoodHaveli/node
 MERGED from [:react-native-vector-icons] /home/sudhir/Documents/Sudhir/UI/FoodHaveli/node_modules/react-native-vector-icons/android/build/intermediates/manifests/full/debug/AndroidManifest.xml:2:1-11:12
 MERGED from [com.facebook.react:react-native:0.57.4] /home/sudhir/.gradle/caches/transforms-1/files-1.1/react-native-0.57.4.aar/d792d35a42be139e1a5aa7fd7a4d7169/AndroidManifest.xml:2:1-15:12
 MERGED from [com.android.support:appcompat-v7:27.1.1] /home/sudhir/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/c51f8db8a3237c8c48121d0971b2ae56/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:support-fragment:27.1.1] /home/sudhir/.gradle/caches/transforms-1/files-1.1/support-fragment-27.1.1.aar/f3a2fe40b301fd55aae1d5d58ab71ab7/AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.android.gms:play-services-maps:16.0.0] /home/sudhir/.gradle/caches/transforms-1/files-1.1/play-services-maps-16.0.0.aar/64dc118188ec5124ab3f44c3e25e7b96/AndroidManifest.xml:17:1-32:12
+MERGED from [com.google.android.gms:play-services-base:16.0.1] /home/sudhir/.gradle/caches/transforms-1/files-1.1/play-services-base-16.0.1.aar/30893bc3ace46b025f7dbe7b42be8c30/AndroidManifest.xml:17:1-29:12
+MERGED from [com.google.maps.android:android-maps-utils:0.5] /home/sudhir/.gradle/caches/transforms-1/files-1.1/android-maps-utils-0.5.aar/d09c61291c9bf0eca06e963c79497e19/AndroidManifest.xml:2:1-13:12
 MERGED from [com.android.support:animated-vector-drawable:27.1.1] /home/sudhir/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-27.1.1.aar/eef69d7efdc518028137069bf66c22b0/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-vector-drawable:27.1.1] /home/sudhir/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-27.1.1.aar/1883b709ad1c67f729c6f15ebf90bb8d/AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.android.gms:play-services-tasks:16.0.1] /home/sudhir/.gradle/caches/transforms-1/files-1.1/play-services-tasks-16.0.1.aar/5b10e89d2edd4e9d402d0a70425ff9d9/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-basement:16.0.1] /home/sudhir/.gradle/caches/transforms-1/files-1.1/play-services-basement-16.0.1.aar/9a6c76fc54acaa7a5d8b34eeb68543e1/AndroidManifest.xml:17:1-28:12
+MERGED from [com.android.support:support-v4:26.1.0] /home/sudhir/.gradle/caches/transforms-1/files-1.1/support-v4-26.1.0.aar/507f94ec00aaea26b863447bc1589d16/AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-media-compat:26.1.0] /home/sudhir/.gradle/caches/transforms-1/files-1.1/support-media-compat-26.1.0.aar/a66e1f6494aa4e0d992f0266ebd4e964/AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-fragment:27.1.1] /home/sudhir/.gradle/caches/transforms-1/files-1.1/support-fragment-27.1.1.aar/f3a2fe40b301fd55aae1d5d58ab71ab7/AndroidManifest.xml:17:1-22:12
 MERGED from [com.android.support:support-core-ui:27.1.1] /home/sudhir/.gradle/caches/transforms-1/files-1.1/support-core-ui-27.1.1.aar/81f43b2cd86c50dc83b340c5d62aa9e7/AndroidManifest.xml:17:1-22:12
 MERGED from [com.android.support:support-core-utils:27.1.1] /home/sudhir/.gradle/caches/transforms-1/files-1.1/support-core-utils-27.1.1.aar/922f463aa406f7d43b613314600d7512/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:support-vector-drawable:27.1.1] /home/sudhir/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-27.1.1.aar/1883b709ad1c67f729c6f15ebf90bb8d/AndroidManifest.xml:17:1-22:12
 MERGED from [com.android.support:support-compat:27.1.1] /home/sudhir/.gradle/caches/transforms-1/files-1.1/support-compat-27.1.1.aar/6e1b3a4a1ae0041b04c6710ef0c43bf5/AndroidManifest.xml:17:1-22:12
 MERGED from [com.facebook.fresco:fresco:1.10.0] /home/sudhir/.gradle/caches/transforms-1/files-1.1/fresco-1.10.0.aar/8a68dabf750472daa8b1e334945c740e/AndroidManifest.xml:2:1-9:12
 MERGED from [com.facebook.fresco:imagepipeline-okhttp3:1.10.0] /home/sudhir/.gradle/caches/transforms-1/files-1.1/imagepipeline-okhttp3-1.10.0.aar/1050761603f7a9edf948b82ae6784701/AndroidManifest.xml:2:1-9:12
@@ -30,29 +40,33 @@ MERGED from [android.arch.lifecycle:viewmodel:1.1.0] /home/sudhir/.gradle/caches
 MERGED from [com.facebook.fresco:fbcore:1.10.0] /home/sudhir/.gradle/caches/transforms-1/files-1.1/fbcore-1.10.0.aar/85a68e964a41a20e8ec3ca88bf9dad95/AndroidManifest.xml:2:1-9:12
 MERGED from [android.arch.lifecycle:runtime:1.1.0] /home/sudhir/.gradle/caches/transforms-1/files-1.1/runtime-1.1.0.aar/f739982104944d52de07d79f49b69c38/AndroidManifest.xml:17:1-22:12
 MERGED from [android.arch.core:runtime:1.1.0] /home/sudhir/.gradle/caches/transforms-1/files-1.1/runtime-1.1.0.aar/7880f0ac1ca2bccdc783103076db78e9/AndroidManifest.xml:17:1-22:12
-INJECTED from /home/sudhir/Documents/Sudhir/UI/FoodHaveli/android/app/src/main/AndroidManifest.xml:1:1-26:12
-INJECTED from /home/sudhir/Documents/Sudhir/UI/FoodHaveli/android/app/src/main/AndroidManifest.xml:1:1-26:12
-INJECTED from /home/sudhir/Documents/Sudhir/UI/FoodHaveli/android/app/src/main/AndroidManifest.xml:1:1-26:12
+INJECTED from /home/sudhir/Documents/Sudhir/UI/FoodHaveli/android/app/src/main/AndroidManifest.xml:1:1-29:12
+INJECTED from /home/sudhir/Documents/Sudhir/UI/FoodHaveli/android/app/src/main/AndroidManifest.xml:1:1-29:12
+INJECTED from /home/sudhir/Documents/Sudhir/UI/FoodHaveli/android/app/src/main/AndroidManifest.xml:1:1-29:12
 	package
 		ADDED from /home/sudhir/Documents/Sudhir/UI/FoodHaveli/android/app/src/main/AndroidManifest.xml:2:5-29
 		INJECTED from /home/sudhir/Documents/Sudhir/UI/FoodHaveli/android/app/src/main/AndroidManifest.xml
 		INJECTED from /home/sudhir/Documents/Sudhir/UI/FoodHaveli/android/app/src/main/AndroidManifest.xml
 	android:versionName
 		INJECTED from /home/sudhir/Documents/Sudhir/UI/FoodHaveli/android/app/src/main/AndroidManifest.xml
-		ADDED from /home/sudhir/Documents/Sudhir/UI/FoodHaveli/android/app/src/main/AndroidManifest.xml:1:1-26:12
+		ADDED from /home/sudhir/Documents/Sudhir/UI/FoodHaveli/android/app/src/main/AndroidManifest.xml:1:1-29:12
 		INJECTED from /home/sudhir/Documents/Sudhir/UI/FoodHaveli/android/app/src/main/AndroidManifest.xml
 	android:versionCode
 		INJECTED from /home/sudhir/Documents/Sudhir/UI/FoodHaveli/android/app/src/main/AndroidManifest.xml
-		ADDED from /home/sudhir/Documents/Sudhir/UI/FoodHaveli/android/app/src/main/AndroidManifest.xml:1:1-26:12
+		ADDED from /home/sudhir/Documents/Sudhir/UI/FoodHaveli/android/app/src/main/AndroidManifest.xml:1:1-29:12
 		INJECTED from /home/sudhir/Documents/Sudhir/UI/FoodHaveli/android/app/src/main/AndroidManifest.xml
 	xmlns:android
 		ADDED from /home/sudhir/Documents/Sudhir/UI/FoodHaveli/android/app/src/main/AndroidManifest.xml:1:11-69
 uses-permission#android.permission.INTERNET
 ADDED from /home/sudhir/Documents/Sudhir/UI/FoodHaveli/android/app/src/main/AndroidManifest.xml:4:5-67
+MERGED from [:react-native-maps] /home/sudhir/Documents/Sudhir/UI/FoodHaveli/node_modules/react-native-maps/lib/android/build/intermediates/manifests/full/debug/AndroidManifest.xml:9:5-67
+MERGED from [:react-native-maps] /home/sudhir/Documents/Sudhir/UI/FoodHaveli/node_modules/react-native-maps/lib/android/build/intermediates/manifests/full/debug/AndroidManifest.xml:9:5-67
 MERGED from [:rn-fetch-blob] /home/sudhir/Documents/Sudhir/UI/FoodHaveli/node_modules/rn-fetch-blob/android/build/intermediates/manifests/full/debug/AndroidManifest.xml:15:5-67
 MERGED from [:rn-fetch-blob] /home/sudhir/Documents/Sudhir/UI/FoodHaveli/node_modules/rn-fetch-blob/android/build/intermediates/manifests/full/debug/AndroidManifest.xml:15:5-67
 MERGED from [:react-native-doc-viewer] /home/sudhir/Documents/Sudhir/UI/FoodHaveli/node_modules/react-native-doc-viewer/android/build/intermediates/manifests/full/debug/AndroidManifest.xml:11:5-67
 MERGED from [:react-native-doc-viewer] /home/sudhir/Documents/Sudhir/UI/FoodHaveli/node_modules/react-native-doc-viewer/android/build/intermediates/manifests/full/debug/AndroidManifest.xml:11:5-67
+MERGED from [com.google.android.gms:play-services-maps:16.0.0] /home/sudhir/.gradle/caches/transforms-1/files-1.1/play-services-maps-16.0.0.aar/64dc118188ec5124ab3f44c3e25e7b96/AndroidManifest.xml:24:5-67
+MERGED from [com.google.android.gms:play-services-maps:16.0.0] /home/sudhir/.gradle/caches/transforms-1/files-1.1/play-services-maps-16.0.0.aar/64dc118188ec5124ab3f44c3e25e7b96/AndroidManifest.xml:24:5-67
 	android:name
 		ADDED from /home/sudhir/Documents/Sudhir/UI/FoodHaveli/android/app/src/main/AndroidManifest.xml:4:22-64
 uses-permission#android.permission.SYSTEM_ALERT_WINDOW
@@ -62,7 +76,7 @@ MERGED from [com.facebook.react:react-native:0.57.4] /home/sudhir/.gradle/caches
 	android:name
 		ADDED from /home/sudhir/Documents/Sudhir/UI/FoodHaveli/android/app/src/main/AndroidManifest.xml:5:22-75
 application
-ADDED from /home/sudhir/Documents/Sudhir/UI/FoodHaveli/android/app/src/main/AndroidManifest.xml:7:5-24:19
+ADDED from /home/sudhir/Documents/Sudhir/UI/FoodHaveli/android/app/src/main/AndroidManifest.xml:7:5-27:19
 MERGED from [:react-native-image-picker] /home/sudhir/Documents/Sudhir/UI/FoodHaveli/node_modules/react-native-image-picker/android/build/intermediates/manifests/full/debug/AndroidManifest.xml:11:5-21:19
 MERGED from [:react-native-image-picker] /home/sudhir/Documents/Sudhir/UI/FoodHaveli/node_modules/react-native-image-picker/android/build/intermediates/manifests/full/debug/AndroidManifest.xml:11:5-21:19
 MERGED from [:rn-fetch-blob] /home/sudhir/Documents/Sudhir/UI/FoodHaveli/node_modules/rn-fetch-blob/android/build/intermediates/manifests/full/debug/AndroidManifest.xml:35:5-45:19
@@ -71,6 +85,20 @@ MERGED from [:react-native-doc-viewer] /home/sudhir/Documents/Sudhir/UI/FoodHave
 MERGED from [:react-native-doc-viewer] /home/sudhir/Documents/Sudhir/UI/FoodHaveli/node_modules/react-native-doc-viewer/android/build/intermediates/manifests/full/debug/AndroidManifest.xml:14:5-24:19
 MERGED from [com.facebook.react:react-native:0.57.4] /home/sudhir/.gradle/caches/transforms-1/files-1.1/react-native-0.57.4.aar/d792d35a42be139e1a5aa7fd7a4d7169/AndroidManifest.xml:13:5-20
 MERGED from [com.facebook.react:react-native:0.57.4] /home/sudhir/.gradle/caches/transforms-1/files-1.1/react-native-0.57.4.aar/d792d35a42be139e1a5aa7fd7a4d7169/AndroidManifest.xml:13:5-20
+MERGED from [com.google.android.gms:play-services-maps:16.0.0] /home/sudhir/.gradle/caches/transforms-1/files-1.1/play-services-maps-16.0.0.aar/64dc118188ec5124ab3f44c3e25e7b96/AndroidManifest.xml:30:5-20
+MERGED from [com.google.android.gms:play-services-maps:16.0.0] /home/sudhir/.gradle/caches/transforms-1/files-1.1/play-services-maps-16.0.0.aar/64dc118188ec5124ab3f44c3e25e7b96/AndroidManifest.xml:30:5-20
+MERGED from [com.google.android.gms:play-services-base:16.0.1] /home/sudhir/.gradle/caches/transforms-1/files-1.1/play-services-base-16.0.1.aar/30893bc3ace46b025f7dbe7b42be8c30/AndroidManifest.xml:22:5-27:19
+MERGED from [com.google.android.gms:play-services-base:16.0.1] /home/sudhir/.gradle/caches/transforms-1/files-1.1/play-services-base-16.0.1.aar/30893bc3ace46b025f7dbe7b42be8c30/AndroidManifest.xml:22:5-27:19
+MERGED from [com.google.maps.android:android-maps-utils:0.5] /home/sudhir/.gradle/caches/transforms-1/files-1.1/android-maps-utils-0.5.aar/d09c61291c9bf0eca06e963c79497e19/AndroidManifest.xml:7:5-11:19
+MERGED from [com.google.maps.android:android-maps-utils:0.5] /home/sudhir/.gradle/caches/transforms-1/files-1.1/android-maps-utils-0.5.aar/d09c61291c9bf0eca06e963c79497e19/AndroidManifest.xml:7:5-11:19
+MERGED from [com.google.android.gms:play-services-tasks:16.0.1] /home/sudhir/.gradle/caches/transforms-1/files-1.1/play-services-tasks-16.0.1.aar/5b10e89d2edd4e9d402d0a70425ff9d9/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-tasks:16.0.1] /home/sudhir/.gradle/caches/transforms-1/files-1.1/play-services-tasks-16.0.1.aar/5b10e89d2edd4e9d402d0a70425ff9d9/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-basement:16.0.1] /home/sudhir/.gradle/caches/transforms-1/files-1.1/play-services-basement-16.0.1.aar/9a6c76fc54acaa7a5d8b34eeb68543e1/AndroidManifest.xml:22:5-26:19
+MERGED from [com.google.android.gms:play-services-basement:16.0.1] /home/sudhir/.gradle/caches/transforms-1/files-1.1/play-services-basement-16.0.1.aar/9a6c76fc54acaa7a5d8b34eeb68543e1/AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:support-v4:26.1.0] /home/sudhir/.gradle/caches/transforms-1/files-1.1/support-v4-26.1.0.aar/507f94ec00aaea26b863447bc1589d16/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-v4:26.1.0] /home/sudhir/.gradle/caches/transforms-1/files-1.1/support-v4-26.1.0.aar/507f94ec00aaea26b863447bc1589d16/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-media-compat:26.1.0] /home/sudhir/.gradle/caches/transforms-1/files-1.1/support-media-compat-26.1.0.aar/a66e1f6494aa4e0d992f0266ebd4e964/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-media-compat:26.1.0] /home/sudhir/.gradle/caches/transforms-1/files-1.1/support-media-compat-26.1.0.aar/a66e1f6494aa4e0d992f0266ebd4e964/AndroidManifest.xml:25:5-29:19
 MERGED from [com.facebook.soloader:soloader:0.5.1] /home/sudhir/.gradle/caches/transforms-1/files-1.1/soloader-0.5.1.aar/302e61d21ee13c325953288456d08cb2/AndroidManifest.xml:11:5-20
 MERGED from [com.facebook.soloader:soloader:0.5.1] /home/sudhir/.gradle/caches/transforms-1/files-1.1/soloader-0.5.1.aar/302e61d21ee13c325953288456d08cb2/AndroidManifest.xml:11:5-20
 MERGED from [org.webkit:android-jsc:r174650] /home/sudhir/.gradle/caches/transforms-1/files-1.1/android-jsc-r174650.aar/768ffe561163f905d691de07fdcd9684/AndroidManifest.xml:2:3-17
@@ -85,34 +113,46 @@ MERGED from [org.webkit:android-jsc:r174650] /home/sudhir/.gradle/caches/transfo
 		ADDED from /home/sudhir/Documents/Sudhir/UI/FoodHaveli/android/app/src/main/AndroidManifest.xml:12:7-38
 	android:name
 		ADDED from /home/sudhir/Documents/Sudhir/UI/FoodHaveli/android/app/src/main/AndroidManifest.xml:8:7-38
+meta-data#com.google.android.geo.API_KEY
+ADDED from /home/sudhir/Documents/Sudhir/UI/FoodHaveli/android/app/src/main/AndroidManifest.xml:13:6-120
+	android:value
+		ADDED from /home/sudhir/Documents/Sudhir/UI/FoodHaveli/android/app/src/main/AndroidManifest.xml:13:63-118
+	android:name
+		ADDED from /home/sudhir/Documents/Sudhir/UI/FoodHaveli/android/app/src/main/AndroidManifest.xml:13:17-62
 activity#com.foodhaveli.MainActivity
-ADDED from /home/sudhir/Documents/Sudhir/UI/FoodHaveli/android/app/src/main/AndroidManifest.xml:13:7-22:18
+ADDED from /home/sudhir/Documents/Sudhir/UI/FoodHaveli/android/app/src/main/AndroidManifest.xml:15:7-24:18
 	android:label
-		ADDED from /home/sudhir/Documents/Sudhir/UI/FoodHaveli/android/app/src/main/AndroidManifest.xml:15:9-41
+		ADDED from /home/sudhir/Documents/Sudhir/UI/FoodHaveli/android/app/src/main/AndroidManifest.xml:17:9-41
 	android:windowSoftInputMode
-		ADDED from /home/sudhir/Documents/Sudhir/UI/FoodHaveli/android/app/src/main/AndroidManifest.xml:17:9-51
+		ADDED from /home/sudhir/Documents/Sudhir/UI/FoodHaveli/android/app/src/main/AndroidManifest.xml:19:9-51
 	android:configChanges
-		ADDED from /home/sudhir/Documents/Sudhir/UI/FoodHaveli/android/app/src/main/AndroidManifest.xml:16:9-79
+		ADDED from /home/sudhir/Documents/Sudhir/UI/FoodHaveli/android/app/src/main/AndroidManifest.xml:18:9-79
 	android:name
-		ADDED from /home/sudhir/Documents/Sudhir/UI/FoodHaveli/android/app/src/main/AndroidManifest.xml:14:9-37
+		ADDED from /home/sudhir/Documents/Sudhir/UI/FoodHaveli/android/app/src/main/AndroidManifest.xml:16:9-37
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from /home/sudhir/Documents/Sudhir/UI/FoodHaveli/android/app/src/main/AndroidManifest.xml:18:9-21:25
+ADDED from /home/sudhir/Documents/Sudhir/UI/FoodHaveli/android/app/src/main/AndroidManifest.xml:20:9-23:25
 action#android.intent.action.MAIN
-ADDED from /home/sudhir/Documents/Sudhir/UI/FoodHaveli/android/app/src/main/AndroidManifest.xml:19:13-65
+ADDED from /home/sudhir/Documents/Sudhir/UI/FoodHaveli/android/app/src/main/AndroidManifest.xml:21:13-65
 	android:name
-		ADDED from /home/sudhir/Documents/Sudhir/UI/FoodHaveli/android/app/src/main/AndroidManifest.xml:19:21-62
+		ADDED from /home/sudhir/Documents/Sudhir/UI/FoodHaveli/android/app/src/main/AndroidManifest.xml:21:21-62
 category#android.intent.category.LAUNCHER
-ADDED from /home/sudhir/Documents/Sudhir/UI/FoodHaveli/android/app/src/main/AndroidManifest.xml:20:13-73
+ADDED from /home/sudhir/Documents/Sudhir/UI/FoodHaveli/android/app/src/main/AndroidManifest.xml:22:13-73
 	android:name
-		ADDED from /home/sudhir/Documents/Sudhir/UI/FoodHaveli/android/app/src/main/AndroidManifest.xml:20:23-70
+		ADDED from /home/sudhir/Documents/Sudhir/UI/FoodHaveli/android/app/src/main/AndroidManifest.xml:22:23-70
 activity#com.facebook.react.devsupport.DevSettingsActivity
-ADDED from /home/sudhir/Documents/Sudhir/UI/FoodHaveli/android/app/src/main/AndroidManifest.xml:23:7-84
+ADDED from /home/sudhir/Documents/Sudhir/UI/FoodHaveli/android/app/src/main/AndroidManifest.xml:25:7-84
 	android:name
-		ADDED from /home/sudhir/Documents/Sudhir/UI/FoodHaveli/android/app/src/main/AndroidManifest.xml:23:17-81
+		ADDED from /home/sudhir/Documents/Sudhir/UI/FoodHaveli/android/app/src/main/AndroidManifest.xml:25:17-81
 uses-sdk
 INJECTED from /home/sudhir/Documents/Sudhir/UI/FoodHaveli/android/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from /home/sudhir/Documents/Sudhir/UI/FoodHaveli/android/app/src/main/AndroidManifest.xml
 INJECTED from /home/sudhir/Documents/Sudhir/UI/FoodHaveli/android/app/src/main/AndroidManifest.xml
+MERGED from [:react-native-maps] /home/sudhir/Documents/Sudhir/UI/FoodHaveli/node_modules/react-native-maps/lib/android/build/intermediates/manifests/full/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-maps] /home/sudhir/Documents/Sudhir/UI/FoodHaveli/node_modules/react-native-maps/lib/android/build/intermediates/manifests/full/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-mail] /home/sudhir/Documents/Sudhir/UI/FoodHaveli/node_modules/react-native-mail/android/build/intermediates/manifests/full/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-mail] /home/sudhir/Documents/Sudhir/UI/FoodHaveli/node_modules/react-native-mail/android/build/intermediates/manifests/full/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-geocoder] /home/sudhir/Documents/Sudhir/UI/FoodHaveli/node_modules/react-native-geocoder/android/build/intermediates/manifests/full/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-geocoder] /home/sudhir/Documents/Sudhir/UI/FoodHaveli/node_modules/react-native-geocoder/android/build/intermediates/manifests/full/debug/AndroidManifest.xml:7:5-9:41
 MERGED from [:react-native-image-picker] /home/sudhir/Documents/Sudhir/UI/FoodHaveli/node_modules/react-native-image-picker/android/build/intermediates/manifests/full/debug/AndroidManifest.xml:7:5-9:41
 MERGED from [:react-native-image-picker] /home/sudhir/Documents/Sudhir/UI/FoodHaveli/node_modules/react-native-image-picker/android/build/intermediates/manifests/full/debug/AndroidManifest.xml:7:5-9:41
 MERGED from [:rn-fetch-blob] /home/sudhir/Documents/Sudhir/UI/FoodHaveli/node_modules/rn-fetch-blob/android/build/intermediates/manifests/full/debug/AndroidManifest.xml:7:5-9:41
@@ -129,16 +169,30 @@ MERGED from [com.facebook.react:react-native:0.57.4] /home/sudhir/.gradle/caches
 MERGED from [com.facebook.react:react-native:0.57.4] /home/sudhir/.gradle/caches/transforms-1/files-1.1/react-native-0.57.4.aar/d792d35a42be139e1a5aa7fd7a4d7169/AndroidManifest.xml:7:5-9:41
 MERGED from [com.android.support:appcompat-v7:27.1.1] /home/sudhir/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/c51f8db8a3237c8c48121d0971b2ae56/AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:appcompat-v7:27.1.1] /home/sudhir/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/c51f8db8a3237c8c48121d0971b2ae56/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-fragment:27.1.1] /home/sudhir/.gradle/caches/transforms-1/files-1.1/support-fragment-27.1.1.aar/f3a2fe40b301fd55aae1d5d58ab71ab7/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-fragment:27.1.1] /home/sudhir/.gradle/caches/transforms-1/files-1.1/support-fragment-27.1.1.aar/f3a2fe40b301fd55aae1d5d58ab71ab7/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-maps:16.0.0] /home/sudhir/.gradle/caches/transforms-1/files-1.1/play-services-maps-16.0.0.aar/64dc118188ec5124ab3f44c3e25e7b96/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-maps:16.0.0] /home/sudhir/.gradle/caches/transforms-1/files-1.1/play-services-maps-16.0.0.aar/64dc118188ec5124ab3f44c3e25e7b96/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-base:16.0.1] /home/sudhir/.gradle/caches/transforms-1/files-1.1/play-services-base-16.0.1.aar/30893bc3ace46b025f7dbe7b42be8c30/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-base:16.0.1] /home/sudhir/.gradle/caches/transforms-1/files-1.1/play-services-base-16.0.1.aar/30893bc3ace46b025f7dbe7b42be8c30/AndroidManifest.xml:20:5-44
+MERGED from [com.google.maps.android:android-maps-utils:0.5] /home/sudhir/.gradle/caches/transforms-1/files-1.1/android-maps-utils-0.5.aar/d09c61291c9bf0eca06e963c79497e19/AndroidManifest.xml:5:5-43
+MERGED from [com.google.maps.android:android-maps-utils:0.5] /home/sudhir/.gradle/caches/transforms-1/files-1.1/android-maps-utils-0.5.aar/d09c61291c9bf0eca06e963c79497e19/AndroidManifest.xml:5:5-43
 MERGED from [com.android.support:animated-vector-drawable:27.1.1] /home/sudhir/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-27.1.1.aar/eef69d7efdc518028137069bf66c22b0/AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:animated-vector-drawable:27.1.1] /home/sudhir/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-27.1.1.aar/eef69d7efdc518028137069bf66c22b0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:27.1.1] /home/sudhir/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-27.1.1.aar/1883b709ad1c67f729c6f15ebf90bb8d/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:27.1.1] /home/sudhir/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-27.1.1.aar/1883b709ad1c67f729c6f15ebf90bb8d/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-tasks:16.0.1] /home/sudhir/.gradle/caches/transforms-1/files-1.1/play-services-tasks-16.0.1.aar/5b10e89d2edd4e9d402d0a70425ff9d9/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-tasks:16.0.1] /home/sudhir/.gradle/caches/transforms-1/files-1.1/play-services-tasks-16.0.1.aar/5b10e89d2edd4e9d402d0a70425ff9d9/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-basement:16.0.1] /home/sudhir/.gradle/caches/transforms-1/files-1.1/play-services-basement-16.0.1.aar/9a6c76fc54acaa7a5d8b34eeb68543e1/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-basement:16.0.1] /home/sudhir/.gradle/caches/transforms-1/files-1.1/play-services-basement-16.0.1.aar/9a6c76fc54acaa7a5d8b34eeb68543e1/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v4:26.1.0] /home/sudhir/.gradle/caches/transforms-1/files-1.1/support-v4-26.1.0.aar/507f94ec00aaea26b863447bc1589d16/AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-v4:26.1.0] /home/sudhir/.gradle/caches/transforms-1/files-1.1/support-v4-26.1.0.aar/507f94ec00aaea26b863447bc1589d16/AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-media-compat:26.1.0] /home/sudhir/.gradle/caches/transforms-1/files-1.1/support-media-compat-26.1.0.aar/a66e1f6494aa4e0d992f0266ebd4e964/AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-media-compat:26.1.0] /home/sudhir/.gradle/caches/transforms-1/files-1.1/support-media-compat-26.1.0.aar/a66e1f6494aa4e0d992f0266ebd4e964/AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-fragment:27.1.1] /home/sudhir/.gradle/caches/transforms-1/files-1.1/support-fragment-27.1.1.aar/f3a2fe40b301fd55aae1d5d58ab71ab7/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:27.1.1] /home/sudhir/.gradle/caches/transforms-1/files-1.1/support-fragment-27.1.1.aar/f3a2fe40b301fd55aae1d5d58ab71ab7/AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:support-core-ui:27.1.1] /home/sudhir/.gradle/caches/transforms-1/files-1.1/support-core-ui-27.1.1.aar/81f43b2cd86c50dc83b340c5d62aa9e7/AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:support-core-ui:27.1.1] /home/sudhir/.gradle/caches/transforms-1/files-1.1/support-core-ui-27.1.1.aar/81f43b2cd86c50dc83b340c5d62aa9e7/AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:support-core-utils:27.1.1] /home/sudhir/.gradle/caches/transforms-1/files-1.1/support-core-utils-27.1.1.aar/922f463aa406f7d43b613314600d7512/AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:support-core-utils:27.1.1] /home/sudhir/.gradle/caches/transforms-1/files-1.1/support-core-utils-27.1.1.aar/922f463aa406f7d43b613314600d7512/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-vector-drawable:27.1.1] /home/sudhir/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-27.1.1.aar/1883b709ad1c67f729c6f15ebf90bb8d/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-vector-drawable:27.1.1] /home/sudhir/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-27.1.1.aar/1883b709ad1c67f729c6f15ebf90bb8d/AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:support-compat:27.1.1] /home/sudhir/.gradle/caches/transforms-1/files-1.1/support-compat-27.1.1.aar/6e1b3a4a1ae0041b04c6710ef0c43bf5/AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:support-compat:27.1.1] /home/sudhir/.gradle/caches/transforms-1/files-1.1/support-compat-27.1.1.aar/6e1b3a4a1ae0041b04c6710ef0c43bf5/AndroidManifest.xml:20:5-44
 MERGED from [com.facebook.fresco:fresco:1.10.0] /home/sudhir/.gradle/caches/transforms-1/files-1.1/fresco-1.10.0.aar/8a68dabf750472daa8b1e334945c740e/AndroidManifest.xml:5:5-7:41
@@ -165,6 +219,8 @@ MERGED from [android.arch.core:runtime:1.1.0] /home/sudhir/.gradle/caches/transf
 MERGED from [android.arch.core:runtime:1.1.0] /home/sudhir/.gradle/caches/transforms-1/files-1.1/runtime-1.1.0.aar/7880f0ac1ca2bccdc783103076db78e9/AndroidManifest.xml:20:5-44
 INJECTED from /home/sudhir/Documents/Sudhir/UI/FoodHaveli/android/app/src/main/AndroidManifest.xml
 INJECTED from /home/sudhir/Documents/Sudhir/UI/FoodHaveli/android/app/src/main/AndroidManifest.xml
+	tools:overrideLibrary
+		ADDED from [com.android.support:support-v4:26.1.0] /home/sudhir/.gradle/caches/transforms-1/files-1.1/support-v4-26.1.0.aar/507f94ec00aaea26b863447bc1589d16/AndroidManifest.xml:23:9-51
 	android:targetSdkVersion
 		INJECTED from /home/sudhir/Documents/Sudhir/UI/FoodHaveli/android/app/src/main/AndroidManifest.xml
 		ADDED from /home/sudhir/Documents/Sudhir/UI/FoodHaveli/android/app/src/main/AndroidManifest.xml
@@ -173,6 +229,10 @@ INJECTED from /home/sudhir/Documents/Sudhir/UI/FoodHaveli/android/app/src/main/A
 		INJECTED from /home/sudhir/Documents/Sudhir/UI/FoodHaveli/android/app/src/main/AndroidManifest.xml
 		ADDED from /home/sudhir/Documents/Sudhir/UI/FoodHaveli/android/app/src/main/AndroidManifest.xml
 		INJECTED from /home/sudhir/Documents/Sudhir/UI/FoodHaveli/android/app/src/main/AndroidManifest.xml
+uses-permission#android.permission.ACCESS_COARSE_LOCATION
+ADDED from [:react-native-maps] /home/sudhir/Documents/Sudhir/UI/FoodHaveli/node_modules/react-native-maps/lib/android/build/intermediates/manifests/full/debug/AndroidManifest.xml:10:5-81
+	android:name
+		ADDED from [:react-native-maps] /home/sudhir/Documents/Sudhir/UI/FoodHaveli/node_modules/react-native-maps/lib/android/build/intermediates/manifests/full/debug/AndroidManifest.xml:10:22-78
 provider#com.imagepicker.FileProvider
 ADDED from [:react-native-image-picker] /home/sudhir/Documents/Sudhir/UI/FoodHaveli/node_modules/react-native-image-picker/android/build/intermediates/manifests/full/debug/AndroidManifest.xml:12:9-20:20
 	android:grantUriPermissions
@@ -201,6 +261,8 @@ uses-permission#android.permission.ACCESS_NETWORK_STATE
 ADDED from [:rn-fetch-blob] /home/sudhir/Documents/Sudhir/UI/FoodHaveli/node_modules/rn-fetch-blob/android/build/intermediates/manifests/full/debug/AndroidManifest.xml:27:5-79
 MERGED from [:react-native-doc-viewer] /home/sudhir/Documents/Sudhir/UI/FoodHaveli/node_modules/react-native-doc-viewer/android/build/intermediates/manifests/full/debug/AndroidManifest.xml:12:5-79
 MERGED from [:react-native-doc-viewer] /home/sudhir/Documents/Sudhir/UI/FoodHaveli/node_modules/react-native-doc-viewer/android/build/intermediates/manifests/full/debug/AndroidManifest.xml:12:5-79
+MERGED from [com.google.android.gms:play-services-maps:16.0.0] /home/sudhir/.gradle/caches/transforms-1/files-1.1/play-services-maps-16.0.0.aar/64dc118188ec5124ab3f44c3e25e7b96/AndroidManifest.xml:23:5-79
+MERGED from [com.google.android.gms:play-services-maps:16.0.0] /home/sudhir/.gradle/caches/transforms-1/files-1.1/play-services-maps-16.0.0.aar/64dc118188ec5124ab3f44c3e25e7b96/AndroidManifest.xml:23:5-79
 	android:name
 		ADDED from [:rn-fetch-blob] /home/sudhir/Documents/Sudhir/UI/FoodHaveli/node_modules/rn-fetch-blob/android/build/intermediates/manifests/full/debug/AndroidManifest.xml:27:22-76
 uses-permission#android.permission.ACCESS_WIFI_STATE
@@ -233,7 +295,37 @@ ADDED from [:react-native-doc-viewer] /home/sudhir/Documents/Sudhir/UI/FoodHavel
 		ADDED from [:react-native-doc-viewer] /home/sudhir/Documents/Sudhir/UI/FoodHaveli/node_modules/react-native-doc-viewer/android/build/intermediates/manifests/full/debug/AndroidManifest.xml:18:13-37
 	android:name
 		ADDED from [:react-native-doc-viewer] /home/sudhir/Documents/Sudhir/UI/FoodHaveli/node_modules/react-native-doc-viewer/android/build/intermediates/manifests/full/debug/AndroidManifest.xml:16:13-62
+uses-feature#0x00020000
+ADDED from [com.google.android.gms:play-services-maps:16.0.0] /home/sudhir/.gradle/caches/transforms-1/files-1.1/play-services-maps-16.0.0.aar/64dc118188ec5124ab3f44c3e25e7b96/AndroidManifest.xml:26:5-28:35
+	android:glEsVersion
+		ADDED from [com.google.android.gms:play-services-maps:16.0.0] /home/sudhir/.gradle/caches/transforms-1/files-1.1/play-services-maps-16.0.0.aar/64dc118188ec5124ab3f44c3e25e7b96/AndroidManifest.xml:27:9-41
+	android:required
+		ADDED from [com.google.android.gms:play-services-maps:16.0.0] /home/sudhir/.gradle/caches/transforms-1/files-1.1/play-services-maps-16.0.0.aar/64dc118188ec5124ab3f44c3e25e7b96/AndroidManifest.xml:28:9-32
+activity#com.google.android.gms.common.api.GoogleApiActivity
+ADDED from [com.google.android.gms:play-services-base:16.0.1] /home/sudhir/.gradle/caches/transforms-1/files-1.1/play-services-base-16.0.1.aar/30893bc3ace46b025f7dbe7b42be8c30/AndroidManifest.xml:23:9-26:75
+	android:exported
+		ADDED from [com.google.android.gms:play-services-base:16.0.1] /home/sudhir/.gradle/caches/transforms-1/files-1.1/play-services-base-16.0.1.aar/30893bc3ace46b025f7dbe7b42be8c30/AndroidManifest.xml:25:13-37
+	android:theme
+		ADDED from [com.google.android.gms:play-services-base:16.0.1] /home/sudhir/.gradle/caches/transforms-1/files-1.1/play-services-base-16.0.1.aar/30893bc3ace46b025f7dbe7b42be8c30/AndroidManifest.xml:26:13-72
+	android:name
+		ADDED from [com.google.android.gms:play-services-base:16.0.1] /home/sudhir/.gradle/caches/transforms-1/files-1.1/play-services-base-16.0.1.aar/30893bc3ace46b025f7dbe7b42be8c30/AndroidManifest.xml:24:13-79
+meta-data#com.google.android.gms.version
+ADDED from [com.google.maps.android:android-maps-utils:0.5] /home/sudhir/.gradle/caches/transforms-1/files-1.1/android-maps-utils-0.5.aar/d09c61291c9bf0eca06e963c79497e19/AndroidManifest.xml:8:9-10:69
+MERGED from [com.google.android.gms:play-services-basement:16.0.1] /home/sudhir/.gradle/caches/transforms-1/files-1.1/play-services-basement-16.0.1.aar/9a6c76fc54acaa7a5d8b34eeb68543e1/AndroidManifest.xml:23:9-25:69
+MERGED from [com.google.android.gms:play-services-basement:16.0.1] /home/sudhir/.gradle/caches/transforms-1/files-1.1/play-services-basement-16.0.1.aar/9a6c76fc54acaa7a5d8b34eeb68543e1/AndroidManifest.xml:23:9-25:69
+	android:value
+		ADDED from [com.google.maps.android:android-maps-utils:0.5] /home/sudhir/.gradle/caches/transforms-1/files-1.1/android-maps-utils-0.5.aar/d09c61291c9bf0eca06e963c79497e19/AndroidManifest.xml:10:13-66
+	android:name
+		ADDED from [com.google.maps.android:android-maps-utils:0.5] /home/sudhir/.gradle/caches/transforms-1/files-1.1/android-maps-utils-0.5.aar/d09c61291c9bf0eca06e963c79497e19/AndroidManifest.xml:9:13-58
+meta-data#android.support.VERSION
+ADDED from [com.android.support:support-v4:26.1.0] /home/sudhir/.gradle/caches/transforms-1/files-1.1/support-v4-26.1.0.aar/507f94ec00aaea26b863447bc1589d16/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-media-compat:26.1.0] /home/sudhir/.gradle/caches/transforms-1/files-1.1/support-media-compat-26.1.0.aar/a66e1f6494aa4e0d992f0266ebd4e964/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-media-compat:26.1.0] /home/sudhir/.gradle/caches/transforms-1/files-1.1/support-media-compat-26.1.0.aar/a66e1f6494aa4e0d992f0266ebd4e964/AndroidManifest.xml:26:9-28:38
+	android:value
+		ADDED from [com.android.support:support-v4:26.1.0] /home/sudhir/.gradle/caches/transforms-1/files-1.1/support-v4-26.1.0.aar/507f94ec00aaea26b863447bc1589d16/AndroidManifest.xml:28:13-35
+	android:name
+		ADDED from [com.android.support:support-v4:26.1.0] /home/sudhir/.gradle/caches/transforms-1/files-1.1/support-v4-26.1.0.aar/507f94ec00aaea26b863447bc1589d16/AndroidManifest.xml:27:13-51
 uses-permission#android.permission.READ_PHONE_STATE
-IMPLIED from /home/sudhir/Documents/Sudhir/UI/FoodHaveli/android/app/src/main/AndroidManifest.xml:1:1-26:12 reason: org.webkit.android_jsc has a targetSdkVersion < 4
+IMPLIED from /home/sudhir/Documents/Sudhir/UI/FoodHaveli/android/app/src/main/AndroidManifest.xml:1:1-29:12 reason: org.webkit.android_jsc has a targetSdkVersion < 4
 uses-permission#android.permission.READ_EXTERNAL_STORAGE
-IMPLIED from /home/sudhir/Documents/Sudhir/UI/FoodHaveli/android/app/src/main/AndroidManifest.xml:1:1-26:12 reason: org.webkit.android_jsc requested WRITE_EXTERNAL_STORAGE
+IMPLIED from /home/sudhir/Documents/Sudhir/UI/FoodHaveli/android/app/src/main/AndroidManifest.xml:1:1-29:12 reason: org.webkit.android_jsc requested WRITE_EXTERNAL_STORAGE

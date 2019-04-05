@@ -24,4 +24,15 @@ export default StyleSheet.create({
       textAlign: 'center',
       margin: 10,
     },
+    text:{
+      fontSize:14,
+      textAlign:'center',
+
+    },
+    submitButton: {
+      backgroundColor: '#7a42f4',
+      height: 20,
+      width: 70,
+      marginTop: 5,
+   },
 });

@@ -22,6 +22,8 @@ import StackedAreaExample from './screen/StackedAreaExample.js';
 import PieChartExample from './screen/PieChartExample.js';
 import csv from './screen/csv.js';
 import upload from './screen/upload.js';
+import map from './screen/map.js';
+
 
 
 
@@ -136,6 +138,7 @@ export const Sample = createDrawerNavigator({
   PieChartExample:{screen:PieChartExample},
   csv:{screen:csv},
   upload:{screen:upload},
+  map:{screen:map},
 
 
 }, {

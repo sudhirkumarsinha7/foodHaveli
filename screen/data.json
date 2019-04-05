@@ -12,36 +12,6 @@
                 "fracTankName":"21,000 gal Frac tank"
             }
         }
-    },
-    "SmartBinAPIurlPart1": "https://secure.smartbin.com/SBLab/wsapi?apikey=*",
-    "SmartBinAPIurlPart2": "&apiname=REST.",
-    "SmartBinAPIKey":{
-        "testing":"4770C2A4BEA9B3FBF6F4DE597C48AE3D111A76C0",
-        "staging":"080D53C90398C99CDB0209897E435972BB5CE7A5"
-    },
-    "consoleStatements":false,
-    "APNSDevelopmentEnv":false,
-    "FCMDevelopmentEnv":false,
-    "mailRecipients":[""],
-    "mailCCRecipients":[""],
-    "mailSubject":"Log Report",
-    "mailBody":"Log file",
-    "googleKey":"AIzaSyBW9Jo75zci_d17Y06Bxlhw3ivx_HbKZ14",
-    "assetPassword":"123ABC",
-    "setAssetStatus":"OK",
-    "default":{
-        "userStatusWhenLoggedIn": "Active",
-        "defaultInnerTab":"Map",
-        "filterRadiusForSlider":"50",
-        "environment":"staging",
-        "fracTankBinId": "2596",
-        "fracTankName":"21,000 gal Frac tank",
-        "locationForMap":{
-            "lat":37.7749,
-            "lon":-122.4194
-        }
-    },
-    "tenantWithTemperatureModeON":["Long Range Wireless"],
-    "secretScreenCount":3
+    }
 }
 
